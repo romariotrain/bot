@@ -119,6 +119,56 @@ def reactivate_auras(params: dict):
     return action_fn
 
 
+# ---------------------------------------------------------------- социальные
+
+def accept_party(params: dict):
+    """Принять инвайт в группу от разрешённого игрока (аналог CPartyInvite из follow.exe).
+
+    Триггер: {"type": "event", "field": "party_invite_from"}
+    Параметры:
+      allowed    — whitelist ников (пустой = принимать от всех)
+      accept_key — клавиша принятия (default ENTER)
+      decline_key — клавиша отклонения (default ESCAPE)"""
+    allowed: set[str] = {n.lower() for n in params.get("allowed", [])}
+    accept_key  = params.get("accept_key", "ENTER")
+    decline_key = params.get("decline_key", "ESCAPE")
+
+    def action_fn(s: GameState) -> list[InputAction]:
+        requester = s.party_invite_from.lower()
+        if not requester:
+            return []
+        if not allowed or requester in allowed:
+            return [InputAction(accept_key)]
+        return [InputAction(decline_key)]
+
+    return action_fn
+
+
+def auto_login(params: dict):
+    """Авто-логин при обнаружении экрана входа (аналог auto-reconnect из follow.exe).
+
+    Выполняет последовательность клавиш из login_steps, каждый шаг:
+      {"key": "ENTER", "wait_after_ms": 2000}
+
+    Триггер: {"type": "state", "field": "is_disconnected", "op": "==", "value": true}
+
+    Параметры:
+      login_steps — список шагов (по умолчанию: ENTER → 3 с → ENTER → 2 с)"""
+    default_steps = [
+        {"key": "ENTER",  "wait_after_ms": 3000},  # пропустить заставку
+        {"key": "ENTER",  "wait_after_ms": 2000},  # выбор персонажа → играть
+    ]
+    steps = params.get("login_steps", default_steps)
+
+    def action_fn(s: GameState) -> list[InputAction]:
+        if not s.is_disconnected:
+            return []
+        return [InputAction(step["key"], 0, step.get("wait_after_ms", 1000))
+                for step in steps]
+
+    return action_fn
+
+
 # ---------------------------------------------------------------- авто-трейд
 
 def auto_trade(params: dict):
@@ -185,6 +235,8 @@ REGISTRY = {
     "aim": aim,
     "loot": loot,
     "reactivate_auras": reactivate_auras,
+    "accept_party": accept_party,
+    "auto_login": auto_login,
     "auto_trade": auto_trade,
     "maproll": maproll,
     "navigate": navigate,
