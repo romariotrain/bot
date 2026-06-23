@@ -31,7 +31,7 @@ class GameState:
     leader_pos: tuple = (0.0, 0.0)   # координаты лидера, за которым идём
 
     # --- окружение ---
-    items: list = field(default_factory=list)   # лут на земле: [{"name","dist"}], для auto-loot
+    items: list = field(default_factory=list)   # лут на земле: [{"name","dist","rarity","price"}]
     target_dir: tuple = (0.0, 0.0)               # направление на ближайшего врага (для Aim)
 
     # --- навигация ---

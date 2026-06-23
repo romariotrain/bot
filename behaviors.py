@@ -70,13 +70,37 @@ def aim(params: dict):
 # ---------------------------------------------------------------- авто-лут
 
 def loot(params: dict):
-    """Подбор предметов в радиусе loot_dist (AutoLoot/LootDist)."""
-    loot_dist = params.get("loot_dist", 30.0)
+    """Подбор предметов с фильтрацией по дистанции, цене уников и чёрному списку.
+
+    Параметры (аналог AutoLoot из follow.exe):
+      loot_dist  — радиус подбора в игровых единицах (default 30)
+      uni_price  — минимальная цена (chaos) для подбора уников; 0 = подбирать все уники
+      uni_exc    — список имён уников-исключений (blacklist), не поднимать никогда
+
+    Каждый элемент state.items должен иметь поля:
+      {"name": str, "dist": float, "rarity": str, "price": float}
+    rarity: "normal" | "magic" | "rare" | "unique"
+    """
+    loot_dist = float(params.get("loot_dist", 30.0))
+    uni_price = float(params.get("uni_price", 0.0))
+    uni_exc: list[str] = [n.lower() for n in params.get("uni_exc", [])]
+
+    def _keep(it: dict) -> bool:
+        if it.get("dist", 1e9) > loot_dist:
+            return False
+        name = it.get("name", "").lower()
+        rarity = it.get("rarity", "normal").lower()
+        if rarity == "unique":
+            if name in uni_exc:
+                return False
+            if uni_price > 0 and it.get("price", 0.0) < uni_price:
+                return False
+        return True
 
     def action_fn(s: GameState) -> list[InputAction]:
-        near = [it for it in s.items if it.get("dist", 1e9) <= loot_dist]
-        near.sort(key=lambda it: it["dist"])
-        return [InputAction(f"PICKUP {it['name']} ({it['dist']:.0f})") for it in near]
+        near = [it for it in s.items if _keep(it)]
+        near.sort(key=lambda it: it.get("dist", 1e9))
+        return [InputAction(f"PICKUP {it['name']} ({it.get('dist', 0):.0f})") for it in near]
 
     return action_fn
 
