@@ -1,0 +1,76 @@
+{
+  "name": "followbot-full",
+  "tick_ms": 50,
+  "rules": [
+    {
+      "name": "follow leader (HostDist=25)",
+      "trigger": { "type": "timed", "min_ms": 150, "max_ms": 150 },
+      "behavior": "follow",
+      "params": { "host_dist": 25 }
+    },
+    {
+      "name": "attack while enemies near (hold RMB)",
+      "trigger": { "type": "timed", "min_ms": 200, "max_ms": 200 },
+      "behavior": "attack",
+      "params": { "key": "MOUSE_RIGHT" }
+    },
+    {
+      "name": "aim at nearest enemy",
+      "trigger": { "type": "timed", "min_ms": 300, "max_ms": 300 },
+      "behavior": "aim"
+    },
+    {
+      "name": "auto-loot in radius (LootDist=30)",
+      "trigger": { "type": "timed", "min_ms": 500, "max_ms": 500 },
+      "behavior": "loot",
+      "params": { "loot_dist": 30 }
+    },
+    {
+      "name": "life-flask @ hp<35%",
+      "trigger": { "type": "state", "field": "hp", "op": "<", "value": 0.35, "edge": true },
+      "actions": ["1"],
+      "cooldown_ms": 3000
+    },
+    {
+      "name": "keep-alive (anti-afk)",
+      "trigger": { "type": "timed", "min_ms": 5000, "max_ms": 5200 },
+      "actions": ["KEEP-ALIVE-NUDGE"]
+    },
+    {
+      "name": "accept party from MyLeader",
+      "trigger": { "type": "state", "field": "party_invite_from", "op": "==", "value": "MyLeader", "edge": true },
+      "actions": ["ACCEPT-PARTY"]
+    },
+    {
+      "name": "accept trade from MyLeader",
+      "trigger": { "type": "state", "field": "trade_request_from", "op": "==", "value": "MyLeader", "edge": true },
+      "actions": ["ACCEPT-TRADE", "PUT-INVENTORY", "CONFIRM"],
+      "gap_ms": 80
+    },
+    {
+      "name": "do league mechanic if allowed",
+      "trigger": { "type": "state", "field": "league_mechanic", "op": "in", "value": ["Essence", "Breach", "Harvest"], "edge": true },
+      "actions": ["ENGAGE-MECHANIC"]
+    },
+    {
+      "name": "pick altar mod if allowed",
+      "trigger": { "type": "state", "field": "altar_mod", "op": "in", "value": ["Take:Damage", "Boss:Drops"], "edge": true },
+      "actions": ["PICK-ALTAR"]
+    },
+    {
+      "name": "skip blacklisted ultimatum",
+      "trigger": { "type": "state",
+        "all": [
+          { "field": "encounter", "op": "==", "value": "Ultimatum" },
+          { "field": "encounter", "op": "in", "value": ["Ultimatum"] }
+        ], "edge": true },
+      "actions": ["LEAVE-ENCOUNTER"]
+    },
+    {
+      "name": "reactivate auras on respawn",
+      "trigger": { "type": "state", "field": "just_respawned", "op": "==", "value": true, "edge": true },
+      "behavior": "reactivate_auras",
+      "params": { "auras": ["AURA-Hatred", "AURA-Discipline", "AURA-Determination"] }
+    }
+  ]
+}

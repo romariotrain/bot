@@ -1,0 +1,30 @@
+{
+  "name": "demo",
+  "tick_ms": 50,
+  "rules": [
+    {
+      "name": "utility-skill (timed)",
+      "trigger": { "type": "timed", "min_ms": 4000, "max_ms": 4300 },
+      "actions": ["X"],
+      "humanize_ms": 40
+    },
+    {
+      "name": "life-flask @ hp<35%",
+      "trigger": { "type": "state", "field": "hp", "op": "<", "value": 0.35, "edge": true },
+      "actions": ["1"],
+      "cooldown_ms": 3000
+    },
+    {
+      "name": "mana-flask @ mana<30%",
+      "trigger": { "type": "state", "field": "mana", "op": "<", "value": 0.30, "edge": true },
+      "actions": ["2"],
+      "cooldown_ms": 3000
+    },
+    {
+      "name": "on-new-zone combo",
+      "trigger": { "type": "event", "field": "zone" },
+      "actions": ["Q", "W", "E"],
+      "gap_ms": 60
+    }
+  ]
+}

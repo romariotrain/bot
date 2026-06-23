@@ -1,0 +1,24 @@
+{
+  "name": "autobot",
+  "tick_ms": 50,
+  "rules": [
+    {
+      "name": "life-flask @ hp<35%",
+      "trigger": { "type": "state", "field": "hp", "op": "<", "value": 0.35, "edge": true },
+      "actions": ["1"],
+      "cooldown_ms": 3000
+    },
+    {
+      "name": "nav-route @ enter map (NavSlot1..3 + portal)",
+      "trigger": { "type": "state", "field": "zone", "op": "==", "value": "map", "edge": true },
+      "async_run": true,
+      "actions": [
+        { "key": "MOVE->waypoint1", "wait_after_ms": 800 },
+        { "key": "MOVE->waypoint2", "wait_after_ms": 800 },
+        { "key": "MOVE->waypoint3", "wait_after_ms": 800 },
+        { "key": "CLICK->portal",   "wait_after_ms": 1500 },
+        { "key": "ENTER-INSTANCE",  "wait_after_ms": 0 }
+      ]
+    }
+  ]
+}

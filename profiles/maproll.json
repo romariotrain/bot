@@ -1,0 +1,23 @@
+{
+  "name": "map-rolling",
+  "tick_ms": 50,
+  "rules": [
+    {
+      "name": "reroll map until quant>=80 AND rarity>=40",
+      "trigger": { "type": "state", "field": "zone", "op": "==", "value": "hideout", "edge": true },
+      "async_run": true,
+      "reroll": {
+        "until": {
+          "all": [
+            { "field": "map_quant",  "op": ">=", "value": 80 },
+            { "field": "map_rarity", "op": ">=", "value": 40 }
+          ]
+        },
+        "max_attempts": 40
+      },
+      "actions": [
+        { "key": "APPLY-ALCHEMY/CHAOS", "wait_after_ms": 150 }
+      ]
+    }
+  ]
+}
