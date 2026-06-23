@@ -16,6 +16,7 @@ from __future__ import annotations
 import math
 
 from backends import InputAction
+from nav import NavConfig, nav_config_from_dict, slots_to_actions
 from state import GameState
 
 
@@ -92,6 +93,24 @@ def reactivate_auras(params: dict):
     return action_fn
 
 
+# ---------------------------------------------------------------- навигация
+
+def navigate(params: dict):
+    """Выполнить маршрут из NavSlot-ов (аналог NavSlot1-6 в follow.exe).
+
+    Маршрут разворачивается в плоский список InputAction; async_run=True
+    в правиле гарантирует, что навигация не блокирует остальные правила.
+    Условные слоты (condition=zone_reached/portal_visible) используют
+    cond_timeout_ms как задержку — StateProvider должен выставить флаг
+    до истечения таймаута."""
+    cfg: NavConfig = nav_config_from_dict(params)
+
+    def action_fn(s: GameState) -> list[InputAction]:
+        return slots_to_actions(cfg)
+
+    return action_fn
+
+
 # имя из JSON -> фабрика
 REGISTRY = {
     "follow": follow,
@@ -99,6 +118,7 @@ REGISTRY = {
     "aim": aim,
     "loot": loot,
     "reactivate_auras": reactivate_auras,
+    "navigate": navigate,
 }
 
 

@@ -34,6 +34,10 @@ class GameState:
     items: list = field(default_factory=list)   # лут на земле: [{"name","dist"}], для auto-loot
     target_dir: tuple = (0.0, 0.0)               # направление на ближайшего врага (для Aim)
 
+    # --- навигация ---
+    nav_zone_reached: bool = False  # флаг: персонаж вошёл в целевую зону
+    portal_visible: bool = False    # флаг: портал виден на экране (для NavSlot condition)
+
     # --- социальные события ---
     party_invite_from: str = ""   # ник, приславший инвайт в группу
     trade_request_from: str = ""  # ник, открывший трейд
