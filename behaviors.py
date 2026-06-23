@@ -19,6 +19,7 @@ from backends import InputAction
 from maproll import MapRollConfig, maproll_config_from_dict
 from nav import NavConfig, nav_config_from_dict, slots_to_actions
 from state import GameState
+from trade import TradeConfig, on_trade_request, trade_config_from_dict
 
 
 # ---------------------------------------------------------------- FollowBot
@@ -118,6 +119,27 @@ def reactivate_auras(params: dict):
     return action_fn
 
 
+# ---------------------------------------------------------------- авто-трейд
+
+def auto_trade(params: dict):
+    """Принять трейд от разрешённого игрока (аналог CTradeDialog в follow.exe).
+
+    Триггером должен быть EventTrigger на поле trade_request_from:
+      {"type": "event", "field": "trade_request_from"}
+
+    Если запрос от игрока не из whitelist — нажимает decline_key."""
+    cfg: TradeConfig = trade_config_from_dict(params)
+
+    def action_fn(s: GameState) -> list[InputAction]:
+        if on_trade_request(s, cfg):
+            return [InputAction(cfg.accept_key)]
+        if s.trade_request_from:
+            return [InputAction(cfg.decline_key)]
+        return []
+
+    return action_fn
+
+
 # ---------------------------------------------------------------- авто-роллинг карты
 
 def maproll(params: dict):
@@ -163,6 +185,7 @@ REGISTRY = {
     "aim": aim,
     "loot": loot,
     "reactivate_auras": reactivate_auras,
+    "auto_trade": auto_trade,
     "maproll": maproll,
     "navigate": navigate,
 }
