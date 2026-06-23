@@ -1,0 +1,226 @@
+=== MFC140U.DLL ===
+  operator_new
+  AfxGetModuleState
+  AfxWinMain
+  operator_delete
+  DDX_Control
+  operator_new[]
+  operator_delete[]
+  AfxMessageBox
+  AfxEnableControlContainer
+  AfxFindResourceHandle
+  AfxThrowMemoryException
+  AfxThrowOleException
+  AfxMessageBox
+  AfxOleInit
+  AfxRegisterWndClass
+  _AfxSocketInit
+=== KERNEL32.DLL ===
+  TerminateProcess
+  InitializeSListHead
+  InitializeCriticalSectionEx
+  IsProcessorFeaturePresent
+  GetTickCount
+  GetModuleFileNameW
+  CreateToolhelp32Snapshot
+  Process32FirstW
+  Process32NextW
+  CloseHandle
+  OpenProcess
+  GetCurrentProcess
+  GetLastError
+  Sleep
+  CreateThread
+  GetPrivateProfileStringW
+  DeleteFileW
+  FormatMessageW
+  LocalFree
+  WritePrivateProfileStringW
+  WaitForSingleObject
+  MultiByteToWideChar
+  FindFirstFileW
+  FindNextFileW
+  FindClose
+  CreateFileW
+  GetFileTime
+  CompareFileTime
+  QueryFullProcessImageNameW
+  GetModuleHandleW
+  GetProcAddress
+  CreateEventW
+  DeleteCriticalSection
+  SetUnhandledExceptionFilter
+  UnhandledExceptionFilter
+  RtlCaptureContext
+  RtlLookupFunctionEntry
+  RtlVirtualUnwind
+  GetSystemTimeAsFileTime
+  GetCurrentThreadId
+  GetCurrentProcessId
+  QueryPerformanceCounter
+  IsDebuggerPresent
+  GetStartupInfoW
+  OutputDebugStringW
+  GetExitCodeProcess
+  RtlAddFunctionTable
+  GetVolumeInformationW
+  GetVolumeInformationA
+  LoadLibraryA
+=== USER32.DLL ===
+  EnableWindow
+  SendMessageW
+  GetDC
+  ReleaseDC
+  GetSystemMetrics
+  LoadCursorW
+  SetCursor
+  SetTimer
+  KillTimer
+  DrawIconEx
+  LoadIconW
+  IsIconic
+  GetClientRect
+  DrawIcon
+  GetAsyncKeyState
+  InvalidateRect
+  GetWindowRect
+  SystemParametersInfoW
+  ShowScrollBar
+  MessageBoxA
+  ReleaseCapture
+  ClientToScreen
+  GetCursorPos
+  WindowFromPoint
+  GetWindowThreadProcessId
+  SetLayeredWindowAttributes
+  SetCapture
+  MessageBoxW
+=== GDI32.DLL ===
+  GetStockObject
+  GetTextExtentPoint32W
+  GetObjectW
+  CreateFontIndirectW
+=== ADVAPI32.DLL ===
+  OpenProcessToken
+  LookupPrivilegeValueW
+  AdjustTokenPrivileges
+  CreateProcessWithLogonW
+  LookupAccountNameW
+=== SHELL32.DLL ===
+  ShellExecuteW
+  ShellExecuteExW
+  ShellExecuteA
+=== COMCTL32.DLL ===
+  InitCommonControlsEx
+=== WS2_32.DLL ===
+  Ordinal_115
+=== MSVCP140.DLL ===
+  _Wcsxfrm
+  _Wcscoll
+=== IPHLPAPI.DLL ===
+  GetAdaptersInfo
+=== WINHTTP.DLL ===
+  WinHttpOpen
+  WinHttpConnect
+  WinHttpCloseHandle
+  WinHttpOpenRequest
+  WinHttpSendRequest
+  WinHttpReceiveResponse
+  WinHttpQueryHeaders
+  WinHttpQueryDataAvailable
+  WinHttpReadData
+=== XINPUT1_4.DLL ===
+  Ordinal_2
+=== VCRUNTIME140.DLL ===
+  __C_specific_handler
+  __CxxFrameHandler3
+  _CxxThrowException
+  __std_terminate
+  memset
+  __vcrt_InitializeCriticalSectionEx
+  memcmp
+  memcpy
+  memmove
+  __std_exception_copy
+  __std_exception_destroy
+  strchr
+  wcsrchr
+  strstr
+=== API-MS-WIN-CRT-HEAP-L1-1-0.DLL ===
+  free
+  _set_new_mode
+  realloc
+  _recalloc
+  calloc
+  malloc
+=== API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL ===
+  _exit
+  exit
+  terminate
+  _invalid_parameter_noinfo_noreturn
+  _seh_filter_exe
+  _set_app_type
+  _configure_wide_argv
+  _initialize_wide_environment
+  _get_wide_winmain_command_line
+  _initterm
+  _initterm_e
+  _cexit
+  _register_thread_local_exe_atexit_callback
+  _initialize_onexit_table
+  _register_onexit_function
+  _crt_atexit
+  _errno
+  _invalid_parameter_noinfo
+  _c_exit
+=== API-MS-WIN-CRT-CONVERT-L1-1-0.DLL ===
+  wcstol
+  atoi
+  _wtoi
+  _itow_s
+  _atoi64
+=== API-MS-WIN-CRT-UTILITY-L1-1-0.DLL ===
+  srand
+  rand
+=== API-MS-WIN-CRT-STRING-L1-1-0.DLL ===
+  strcmp
+  tolower
+  _wcsicmp
+  wcsncmp
+  isspace
+  isalpha
+  isupper
+  toupper
+  islower
+  iswdigit
+  strncpy
+=== API-MS-WIN-CRT-STDIO-L1-1-0.DLL ===
+  _set_fmode
+  __p__commode
+  __stdio_common_vsprintf
+  __stdio_common_vswprintf_s
+  _wfopen
+  fread
+  fclose
+  fflush
+  setvbuf
+  _get_stream_buffer_pointers
+  fsetpos
+  _fseeki64
+  fgetpos
+  fgetc
+  ungetc
+  fputc
+  fwrite
+  __acrt_iob_func
+  __stdio_common_vfwprintf
+  __stdio_common_vswprintf
+=== API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL ===
+  _lock_file
+  _unlock_file
+  _wsplitpath_s
+  _wstat64i32
+=== API-MS-WIN-CRT-MATH-L1-1-0.DLL ===
+  __setusermatherr
+=== API-MS-WIN-CRT-LOCALE-L1-1-0.DLL ===
+  _configthreadlocale

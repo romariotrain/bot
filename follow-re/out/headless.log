@@ -1,0 +1,834 @@
+openjdk version "21.0.11" 2026-04-21
+OpenJDK Runtime Environment Homebrew (build 21.0.11)
+OpenJDK 64-Bit Server VM Homebrew (build 21.0.11, mixed mode)
+INFO  Using log config file: jar:file:/usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Framework/Generic/lib/Generic.jar!/generic.log4j.xml (LoggingInitialization)  
+INFO  Using log file: /Users/romamorozevich/Library/ghidra/ghidra_12.1.2_PUBLIC/application.log (LoggingInitialization)  
+INFO  Loading user preferences: /Users/romamorozevich/Library/ghidra/ghidra_12.1.2_PUBLIC/preferences (Preferences)  
+INFO  Searching for classes... (ClassSearcher)  
+INFO  Class search complete (1337 ms) (ClassSearcher)  
+INFO  Initializing SSL Context (DefaultSSLContextInitializer)  
+INFO  Initializing Random Number Generator... (SecureRandomFactory)  
+INFO  Random Number Generator initialization complete: NativePRNGNonBlocking (SecureRandomFactory)  
+INFO  Trust manager disabled, cacerts have not been set (DefaultTrustManagerFactory)  
+INFO  Headless startup complete (4088 ms) (AnalyzeHeadless)  
+INFO  Class searcher loaded 59 extension points (20 false positives) (ClassSearcher)  
+INFO  HEADLESS Script Paths:
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/BSim/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/PDB/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/WildcardAssembler/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/DecompilerDependent/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Processors/JVM/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Debug/Debugger/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Processors/PIC/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/PyGhidra/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Processors/DATA/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Processors/8051/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/BytePatterns/ghidra_scripts
+    /Users/romamorozevich/Projects/follow-re/scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/FunctionID/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/Decompiler/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/SystemEmulation/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/FileFormats/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/GnuDemangler/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/MicrosoftCodeAnalyzer/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/SwiftDemangler/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Debug/Debugger-rmi-trace/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/Base/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Processors/Atmel/ghidra_scripts
+    /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/VersionTracking/ghidra_scripts (HeadlessAnalyzer)  
+INFO  HEADLESS: execution starts (HeadlessAnalyzer)  
+INFO  Creating temporary project: /Users/romamorozevich/Projects/follow-re/project/follow (HeadlessAnalyzer)  
+INFO  Creating project: /Users/romamorozevich/Projects/follow-re/project/follow (DefaultProject)  
+INFO  REPORT: Processing input files:  (HeadlessAnalyzer)  
+INFO       project: /Users/romamorozevich/Projects/follow-re/project/follow (HeadlessAnalyzer)  
+INFO  IMPORTING: file:///Users/romamorozevich/Downloads/fbt/follow.exe (HeadlessAnalyzer)  
+INFO  Using Loader: Portable Executable (PE) (ProgramLoader)  
+INFO  Using Language/Compiler: x86:LE:64:default:windows (ProgramLoader)  
+INFO  Using Library Search Path: [., /System/Library/dyld/dyld_shared_cache_arm64e, /System/Library/dyld/dyld_shared_cache_x86_64, /System/Library/dyld/dyld_shared_cache_x86_64h, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_arm64e, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64, /System/Cryptexes/OS/System/Library/dyld/dyld_shared_cache_x86_64h, /Users/romamorozevich/Library/Java/Extensions, /Library/Java/Extensions, /Network/Library/Java/Extensions, /System/Library/Java/Extensions, /usr/lib/java] (ProgramLoader)  
+INFO  TLS callbacks at 14029b348 (TLSDirectory)  
+INFO  Removing 2 unused filesystems from cache (FileSystemInstanceManager)  
+INFO  Additional info:
+Loading file:///Users/romamorozevich/Downloads/fbt/follow.exe?MD5=43bc38804ed0e0b933d36d8bc8cd9309...
+------------------------------------------------
+
+Searching 4 paths for library ADVAPI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-CONVERT-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-HEAP-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-LOCALE-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-MATH-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-STDIO-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-STRING-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library API-MS-WIN-CRT-UTILITY-L1-1-0.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library COMCTL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library GDI32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library IPHLPAPI.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library KERNEL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library MFC140U.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library MSVCP140.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library SHELL32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library USER32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library VCRUNTIME140.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WINHTTP.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library WS2_32.DLL...
+Library not found.
+------------------------------------------------
+
+Searching 4 paths for library XINPUT1_4.DLL...
+Library not found.
+------------------------------------------------
+
+Applying /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/Base/data/symbols/win64/mfc140u.exports
+Linking the External Programs of 'follow.exe' to imported libraries...
+  [MFC140U.DLL] -> not found in project
+  [KERNEL32.DLL] -> not found in project
+  [USER32.DLL] -> not found in project
+  [GDI32.DLL] -> not found in project
+  [ADVAPI32.DLL] -> not found in project
+  [SHELL32.DLL] -> not found in project
+  [COMCTL32.DLL] -> not found in project
+  [WS2_32.DLL] -> not found in project
+  [MSVCP140.DLL] -> not found in project
+  [IPHLPAPI.DLL] -> not found in project
+  [WINHTTP.DLL] -> not found in project
+  [XINPUT1_4.DLL] -> not found in project
+  [VCRUNTIME140.DLL] -> not found in project
+  [API-MS-WIN-CRT-HEAP-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-RUNTIME-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-CONVERT-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-UTILITY-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STRING-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-STDIO-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-FILESYSTEM-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-MATH-L1-1-0.DLL] -> not found in project
+  [API-MS-WIN-CRT-LOCALE-L1-1-0.DLL] -> not found in project
+------------------------------------------------
+
+ (ProgramLoader)  
+INFO  IMPORTING: Loaded 0 additional files (HeadlessAnalyzer)  
+INFO  ANALYZING all memory and code: file:///Users/romamorozevich/Downloads/fbt/follow.exe (HeadlessAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___raise_securityfailure' specified in file: /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+WARN  Ignoring leading '_' chars on no-return name '___report_rangecheckfailure' specified in file: /usr/local/Cellar/ghidra/12.1.2/libexec/Ghidra/Features/Base/data/PEFunctionsThatDoNotReturn (NoReturnFunctionAnalyzer)  
+INFO  Skipping PDB processing: failed to locate PDB file in configured locations (PdbUniversalAnalyzer)  
+INFO  Use a script to set the PDB file location. I.e.,
+    PdbAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb")); or
+    PdbUniversalAnalyzer.setPdbFileOption(currentProgram, new File("/path/to/pdb/file.pdb"));
+Or set the symbol server search configuration using:    PdbPlugin.saveSymbolServerServiceConfig(...);
+ This must be done using a pre-script (prior to analysis). (PdbUniversalAnalyzer)  
+INFO  Packed database cache: /var/tmp/romamorozevich-ghidra/packed-db-cache (PackedDatabaseCache)  
+INFO  hit non-returning function, restarting decompiler switch analyzer later (DecompilerSwitchAnalyzer)  
+WARN  Decompiling 1401a5468, pcode error at 1401a5598: Unable to resolve constructor at 1401a5598 (DecompileCallback)  
+WARN  Decompiling 1401bcd9e, pcode error at 1401bcdbd: Unable to resolve constructor at 1401bcdbd (DecompileCallback)  
+WARN  Decompiling 1401bcd9e, pcode error at 1401bcdbd: Unable to resolve constructor at 1401bcdbd (DecompileCallback)  
+WARN  Decompiling 1401e2398, pcode error at 1401e237e: Unable to resolve constructor at 1401e237e (DecompileCallback)  
+WARN  Decompiling 1401b1249, pcode error at 1401b1215: Unable to resolve constructor at 1401b1215 (DecompileCallback)  
+WARN  Decompiling 1401ce5af, pcode error at 1401ce5ca: Unable to resolve constructor at 1401ce5ca (DecompileCallback)  
+WARN  Decompiling 1401b1249, pcode error at 1401b1215: Unable to resolve constructor at 1401b1215 (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f8247: Unable to resolve constructor at 1401f8247 (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f823c: Unable to resolve constructor at 1401f823c (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f8286: Unable to resolve constructor at 1401f8286 (DecompileCallback)  
+WARN  Decompiling 1401fa0fe, pcode error at 1401fa0ed: Unable to resolve constructor at 1401fa0ed (DecompileCallback)  
+WARN  Decompiling 1401fa0fe, pcode error at 1401fa0ed: Unable to resolve constructor at 1401fa0ed (DecompileCallback)  
+WARN  Decompiling 1401a8fb3: Unable to read bytes at ram:ee780de1 (DecompileCallback)  
+WARN  Decompiling 1401ee649, pcode error at c64e37eb: Could not follow disassembly flow into non-existing memory at c64e37eb (DecompileCallback)  
+WARN  Decompiling 1401ee649, pcode error at c64e37eb: Could not follow disassembly flow into non-existing memory at c64e37eb (DecompileCallback)  
+WARN  Decompiling 1401a8fb3: Unable to read bytes at ram:ee780de1 (DecompileCallback)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+ERROR Could not create Data at address 1402992e0 (DemangledVariable)  
+INFO  Applied data type archive: windows_vs12_64 (ApplyDataArchiveAnalyzer)  
+INFO  -----------------------------------------------------
+    ASCII Strings                              0.791 secs
+    Apply Data Archives                        0.558 secs
+    Call Convention ID                         0.038 secs
+    Call-Fixup Installer                       0.568 secs
+    Create Address Tables                      0.926 secs
+    Create Address Tables - One Time           0.188 secs
+    Create Function                            0.566 secs
+    Data Reference                             0.461 secs
+    Decompiler Switch Analysis                 4.730 secs
+    Decompiler Switch Analysis - One Time      8.487 secs
+    Demangler Microsoft                        0.874 secs
+    Disassemble                                0.005 secs
+    Disassemble Entry Points                   4.800 secs
+    Embedded Media                             0.087 secs
+    External Entry References                  0.001 secs
+    Function ID                                1.516 secs
+    Function Start Search                      0.246 secs
+    Non-Returning Functions - Discovered       1.265 secs
+    Non-Returning Functions - Known            0.074 secs
+    PDB Universal                              0.048 secs
+    Reference                                  0.550 secs
+    Scalar Operand References                  0.992 secs
+    Shared Return Calls                        0.485 secs
+    Stack                                      5.051 secs
+    Subroutine References                      0.314 secs
+    Subroutine References - One Time           0.059 secs
+    Windows x86 PE Exception Handling          9.120 secs
+    Windows x86 PE RTTI Analyzer               3.948 secs
+    Windows x86 Thread Environment Block (TEB) Analyzer     0.101 secs
+    WindowsResourceReference                   8.695 secs
+    x86 Constant Reference Analyzer            5.856 secs
+-----------------------------------------------------
+     Total Time   61 secs
+-----------------------------------------------------
+ (AutoAnalysisManager)  
+INFO  REPORT: Analysis succeeded for file: file:///Users/romamorozevich/Downloads/fbt/follow.exe (HeadlessAnalyzer)  
+INFO  REPORT: Execute script: DumpAll.java  (HeadlessAnalyzer)  
+INFO  SCRIPT: /Users/romamorozevich/Projects/follow-re/scripts/DumpAll.java (HeadlessAnalyzer)  
+INFO  DumpAll.java> decompiled 200 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 400 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 600 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 800 funcs (GhidraScript)  
+WARN  Decompiling 14019d80e, pcode error at 14019d811: Unable to resolve constructor at 14019d811 (DecompileCallback)  
+WARN  Decompiling 14019db20, pcode error at 14019db2c: Unable to resolve constructor at 14019db2c (DecompileCallback)  
+WARN  Decompiling 14019e28c, pcode error at 14019e29f: Unable to resolve constructor at 14019e29f (DecompileCallback)  
+WARN  Decompiling 14019e406, pcode error at 14019e408: Unable to resolve constructor at 14019e408 (DecompileCallback)  
+WARN  Decompiling 14019e5ae, pcode error at 14019e5ca: Unable to resolve constructor at 14019e5ca (DecompileCallback)  
+WARN  Decompiling 14019e5ae, pcode error at 14019e5d3: Unable to resolve constructor at 14019e5d3 (DecompileCallback)  
+WARN  Decompiling 1401a0794, pcode error at 1401a07ac: Unable to resolve constructor at 1401a07ac (DecompileCallback)  
+WARN  Decompiling 1401a0cb7, pcode error at 1401a0cb7: Unable to resolve constructor at 1401a0cb7 (DecompileCallback)  
+WARN  Decompiling 1401a12f8, pcode error at 1401a12ff: Unable to resolve constructor at 1401a12ff (DecompileCallback)  
+WARN  Decompiling 1401a150f, pcode error at 1401a15b4: Unable to resolve constructor at 1401a15b4 (DecompileCallback)  
+WARN  Decompiling 1401a1908, pcode error at cdceefff: Could not follow disassembly flow into non-existing memory at cdceefff (DecompileCallback)  
+WARN  Decompiling 1401a24a0, pcode error at 1401a24a0: Unable to resolve constructor at 1401a24a0 (DecompileCallback)  
+WARN  Decompiling 1401a33ff, pcode error at 1401a33ff: Unable to resolve constructor at 1401a33ff (DecompileCallback)  
+WARN  Decompiling 1401a3dea, pcode error at 1401a3dea: Unable to resolve constructor at 1401a3dea (DecompileCallback)  
+WARN  Decompiling 1401a407b, pcode error at 1401a4080: Unable to resolve constructor at 1401a4080 (DecompileCallback)  
+WARN  Decompiling 1401a44bb, pcode error at 1401a44cf: Unable to resolve constructor at 1401a44cf (DecompileCallback)  
+WARN  Decompiling 1401a46e8, pcode error at 1401a46f6: Unable to resolve constructor at 1401a46f6 (DecompileCallback)  
+WARN  Decompiling 1401a46e8, pcode error at 1401a472e: Unable to resolve constructor at 1401a472e (DecompileCallback)  
+WARN  Decompiling 1401a5468, pcode error at 1401a5598: Unable to resolve constructor at 1401a5598 (DecompileCallback)  
+WARN  Decompiling 1401a55e3, pcode error at 1401a55e4: Unable to resolve constructor at 1401a55e4 (DecompileCallback)  
+WARN  Decompiling 1401a7567, pcode error at 1401a756c: Unable to resolve constructor at 1401a756c (DecompileCallback)  
+WARN  Decompiling 1401a7d8b, pcode error at 1401a7d8b: Unable to resolve constructor at 1401a7d8b (DecompileCallback)  
+WARN  Decompiling 1401a7f88, pcode error at 1401a7f88: Unable to resolve constructor at 1401a7f88 (DecompileCallback)  
+INFO  DumpAll.java> decompiled 1000 funcs (GhidraScript)  
+WARN  Decompiling 1401a84ef, pcode error at 1401a84ef: Unable to resolve constructor at 1401a84ef (DecompileCallback)  
+WARN  Decompiling 1401a87a4, pcode error at 1401a87c7: Unable to resolve constructor at 1401a87c7 (DecompileCallback)  
+WARN  Decompiling 1401a8d50, pcode error at 1401a8d76: Unable to resolve constructor at 1401a8d76 (DecompileCallback)  
+WARN  Decompiling 1401a8fb3: Unable to read bytes at ram:ee780de1 (DecompileCallback)  
+WARN  Decompiling 1401a8fb3: Unable to read bytes at ram:ee780de1 (DecompileCallback)  
+WARN  Decompiling 1401a940f, pcode error at 1401a940f: Unable to resolve constructor at 1401a940f (DecompileCallback)  
+WARN  Decompiling 1401a9712, pcode error at 1401a9718: Unable to resolve constructor at 1401a9718 (DecompileCallback)  
+WARN  Decompiling 1401a9aac, pcode error at 1401a9ac8: Unable to resolve constructor at 1401a9ac8 (DecompileCallback)  
+WARN  Decompiling 1401a9e9e, pcode error at 1401a9ec4: Unable to resolve constructor at 1401a9ec4 (DecompileCallback)  
+WARN  Decompiling 1401aa0ae, pcode error at 1401aa0ae: Unable to resolve constructor at 1401aa0ae (DecompileCallback)  
+WARN  Decompiling 1401aa30f, pcode error at 1401aa322: Unable to resolve constructor at 1401aa322 (DecompileCallback)  
+WARN  Decompiling 1401aa30f, pcode error at 1401aa303: Unable to resolve constructor at 1401aa303 (DecompileCallback)  
+WARN  Decompiling 1401aabf9, pcode error at 1401aac17: Unable to resolve constructor at 1401aac17 (DecompileCallback)  
+WARN  Decompiling 1401aaf40, pcode error at 1401aaf4e: Unable to resolve constructor at 1401aaf4e (DecompileCallback)  
+WARN  Decompiling 1401ab7d3, pcode error at 1401ab7d9: Unable to resolve constructor at 1401ab7d9 (DecompileCallback)  
+WARN  Decompiling 1401ac34b, pcode error at 1401ac34b: Unable to resolve constructor at 1401ac34b (DecompileCallback)  
+WARN  Decompiling 1401ad0af, pcode error at 15e8793c6: Could not follow disassembly flow into non-existing memory at 15e8793c6 (DecompileCallback)  
+WARN  Decompiling 1401ad0af, pcode error at 1401ad07f: Unable to resolve constructor at 1401ad07f (DecompileCallback)  
+WARN  Decompiling 1401ad3bd, pcode error at 1401ad3cb: Unable to resolve constructor at 1401ad3cb (DecompileCallback)  
+WARN  Decompiling 1401ad3bd, pcode error at 1401ad3a4: Unable to resolve constructor at 1401ad3a4 (DecompileCallback)  
+WARN  Decompiling 1401ad3bd, pcode error at 1401ad391: Unable to resolve constructor at 1401ad391 (DecompileCallback)  
+WARN  Decompiling 1401ad7b1, pcode error at 1401ad774: Unable to resolve constructor at 1401ad774 (DecompileCallback)  
+WARN  Decompiling 1401ae09a, pcode error at 1401ae0a5: Unable to resolve constructor at 1401ae0a5 (DecompileCallback)  
+WARN  Decompiling 1401ae2c7, pcode error at 1401ae2d0: Unable to resolve constructor at 1401ae2d0 (DecompileCallback)  
+WARN  Decompiling 1401ae557, pcode error at 1401ae568: Unable to resolve constructor at 1401ae568 (DecompileCallback)  
+WARN  Decompiling 1401aec3b, pcode error at 1401aec44: Unable to resolve constructor at 1401aec44 (DecompileCallback)  
+WARN  Decompiling 1401aedaf, pcode error at 1401aedb2: Unable to resolve constructor at 1401aedb2 (DecompileCallback)  
+WARN  Decompiling 1401af1a2, pcode error at 1401af1a8: Unable to resolve constructor at 1401af1a8 (DecompileCallback)  
+WARN  Decompiling 1401af1a2, pcode error at 1401af171: Unable to resolve constructor at 1401af171 (DecompileCallback)  
+WARN  Decompiling 1401af1a2, pcode error at 1401af112: Unable to resolve constructor at 1401af112 (DecompileCallback)  
+WARN  Decompiling 1401af42b, pcode error at 1401af45b: Unable to resolve constructor at 1401af45b (DecompileCallback)  
+WARN  Decompiling 1401af672, pcode error at 1401af687: Unable to resolve constructor at 1401af687 (DecompileCallback)  
+WARN  Decompiling 1401af672, pcode error at 1401af687: Unable to resolve constructor at 1401af687 (DecompileCallback)  
+WARN  Decompiling 1401afd3b, pcode error at 1401afd41: Unable to resolve constructor at 1401afd41 (DecompileCallback)  
+WARN  Decompiling 1401b00cb, pcode error at 1401b00d3: Unable to resolve constructor at 1401b00d3 (DecompileCallback)  
+WARN  Decompiling 1401b03b0, pcode error at 1401b03b2: Unable to resolve constructor at 1401b03b2 (DecompileCallback)  
+WARN  Decompiling 1401b0733, pcode error at 1401b0743: Unable to resolve constructor at 1401b0743 (DecompileCallback)  
+WARN  Decompiling 1401b0733, pcode error at 1401b0739: Unable to resolve constructor at 1401b0739 (DecompileCallback)  
+WARN  Decompiling 1401b0733, pcode error at 1401b0743: Unable to resolve constructor at 1401b0743 (DecompileCallback)  
+WARN  Decompiling 1401b0733, pcode error at 1401b0739: Unable to resolve constructor at 1401b0739 (DecompileCallback)  
+WARN  Decompiling 1401b096e, pcode error at 1401b0972: Failed to resolve varnode <Sreg>, index=6 (DecompileCallback)  
+WARN  Decompiling 1401b0d4b, pcode error at 1401b0d60: Unable to resolve constructor at 1401b0d60 (DecompileCallback)  
+WARN  Decompiling 1401b0ef2, pcode error at 1401b0f19: Unable to resolve constructor at 1401b0f19 (DecompileCallback)  
+WARN  Decompiling 1401b0ef2, pcode error at 1401b0f29: Unable to resolve constructor at 1401b0f29 (DecompileCallback)  
+WARN  Decompiling 1401b1249, pcode error at 1401b1215: Unable to resolve constructor at 1401b1215 (DecompileCallback)  
+WARN  Decompiling 1401b1249, pcode error at 1401b1215: Unable to resolve constructor at 1401b1215 (DecompileCallback)  
+WARN  Decompiling 1401b1569, pcode error at 1401b153b: Unable to resolve constructor at 1401b153b (DecompileCallback)  
+WARN  Decompiling 1401b1569, pcode error at 1401b153b: Unable to resolve constructor at 1401b153b (DecompileCallback)  
+WARN  Decompiling 1401b18a6, pcode error at 1401b18b1: Unable to resolve constructor at 1401b18b1 (DecompileCallback)  
+WARN  Decompiling 1401b18a6, pcode error at 1401b1871: Unable to resolve constructor at 1401b1871 (DecompileCallback)  
+WARN  Decompiling 1401b1b73, pcode error at 1401b1be8: Unable to resolve constructor at 1401b1be8 (DecompileCallback)  
+WARN  Decompiling 1401b1b73, pcode error at 1401b1be8: Unable to resolve constructor at 1401b1be8 (DecompileCallback)  
+WARN  Decompiling 1401b1ef0, pcode error at 1401b1ef0: Unable to resolve constructor at 1401b1ef0 (DecompileCallback)  
+WARN  Decompiling 1401b21e7, pcode error at 1401b21e7: Unable to resolve constructor at 1401b21e7 (DecompileCallback)  
+WARN  Decompiling 1401b362b, pcode error at 13e1b36f7: Could not follow disassembly flow into non-existing memory at 13e1b36f7 (DecompileCallback)  
+WARN  Decompiling 1401b3881, pcode error at 1401b3890: Unable to resolve constructor at 1401b3890 (DecompileCallback)  
+WARN  Decompiling 1401b3caf, pcode error at 1401b3cbc: Unable to resolve constructor at 1401b3cbc (DecompileCallback)  
+WARN  Decompiling 1401b4971, pcode error at 1401b4976: Unable to resolve constructor at 1401b4976 (DecompileCallback)  
+WARN  Decompiling 1401b4c96, pcode error at 1401b4cc1: Unable to resolve constructor at 1401b4cc1 (DecompileCallback)  
+WARN  Decompiling 1401b4c96, pcode error at 1401b4c70: Unable to resolve constructor at 1401b4c70 (DecompileCallback)  
+WARN  Decompiling 1401b5405, pcode error at 1401b5414: Unable to resolve constructor at 1401b5414 (DecompileCallback)  
+WARN  Decompiling 1401b562d, pcode error at 1401b563c: Unable to resolve constructor at 1401b563c (DecompileCallback)  
+WARN  Decompiling 1401b5cb1, pcode error at 1401b5ccc: Unable to resolve constructor at 1401b5ccc (DecompileCallback)  
+WARN  Decompiling 1401b66b3, pcode error at 1401b66b7: Unable to resolve constructor at 1401b66b7 (DecompileCallback)  
+WARN  Decompiling 1401b686f, pcode error at 1401b6878: Unable to resolve constructor at 1401b6878 (DecompileCallback)  
+WARN  Decompiling 1401b6a2f, pcode error at 1401b6a30: Unable to resolve constructor at 1401b6a30 (DecompileCallback)  
+WARN  Decompiling 1401b6f59, pcode error at 1401b6f59: Unable to resolve constructor at 1401b6f59 (DecompileCallback)  
+WARN  Decompiling 1401b7106, pcode error at 1401b710a: Unable to resolve constructor at 1401b710a (DecompileCallback)  
+WARN  Decompiling 1401b7354, pcode error at 1401b735e: Unable to resolve constructor at 1401b735e (DecompileCallback)  
+WARN  Decompiling 1401b76d4, pcode error at 1401b76d9: Unable to resolve constructor at 1401b76d9 (DecompileCallback)  
+WARN  Decompiling 1401b788c, pcode error at 1401b78ef: Unable to resolve constructor at 1401b78ef (DecompileCallback)  
+WARN  Decompiling 1401b788c, pcode error at 1401b793f: Unable to resolve constructor at 1401b793f (DecompileCallback)  
+WARN  Decompiling 1401b788c, pcode error at 1401b78ef: Unable to resolve constructor at 1401b78ef (DecompileCallback)  
+WARN  Decompiling 1401b788c, pcode error at 1401b793f: Unable to resolve constructor at 1401b793f (DecompileCallback)  
+WARN  Decompiling 1401b7c48, pcode error at 1401b7c6b: Unable to resolve constructor at 1401b7c6b (DecompileCallback)  
+WARN  Decompiling 1401b7ced, pcode error at 1401b7d11: Unable to resolve constructor at 1401b7d11 (DecompileCallback)  
+WARN  Decompiling 1401b7ced, pcode error at 1401b7cb1: Unable to resolve constructor at 1401b7cb1 (DecompileCallback)  
+WARN  Decompiling 1401b8594, pcode error at 1401b859f: Unable to resolve constructor at 1401b859f (DecompileCallback)  
+WARN  Decompiling 1401b8b37, pcode error at 1401b8b60: Unable to resolve constructor at 1401b8b60 (DecompileCallback)  
+WARN  Decompiling 1401b8b37, pcode error at 1401b8b15: Unable to resolve constructor at 1401b8b15 (DecompileCallback)  
+WARN  Decompiling 1401b8b37, pcode error at 1401b8b60: Unable to resolve constructor at 1401b8b60 (DecompileCallback)  
+WARN  Decompiling 1401b8b37, pcode error at 1401b8b15: Unable to resolve constructor at 1401b8b15 (DecompileCallback)  
+WARN  Decompiling 1401b8e34, pcode error at 1401b8e34: Unable to resolve constructor at 1401b8e34 (DecompileCallback)  
+WARN  Decompiling 1401b9033, pcode error at 1401b9038: Unable to resolve constructor at 1401b9038 (DecompileCallback)  
+WARN  Decompiling 1401b92f0, pcode error at 1401b92f0: Unable to resolve constructor at 1401b92f0 (DecompileCallback)  
+WARN  Decompiling 1401b95af, pcode error at 1401b95b4: Unable to resolve constructor at 1401b95b4 (DecompileCallback)  
+WARN  Decompiling 1401ba488, pcode error at b63b3c16: Could not follow disassembly flow into non-existing memory at b63b3c16 (DecompileCallback)  
+WARN  Decompiling 1401ba807, pcode error at 1401ba810: Unable to resolve constructor at 1401ba810 (DecompileCallback)  
+WARN  Decompiling 1401bab13, pcode error at 1401bab14: Unable to resolve constructor at 1401bab14 (DecompileCallback)  
+WARN  Decompiling 1401bb0a8, pcode error at 1401bb0b7: Unable to resolve constructor at 1401bb0b7 (DecompileCallback)  
+WARN  Decompiling 1401bb2cf, pcode error at 1401bb2d1: Unable to resolve constructor at 1401bb2d1 (DecompileCallback)  
+WARN  Decompiling 1401bb609, pcode error at 1401bb634: Unable to resolve constructor at 1401bb634 (DecompileCallback)  
+WARN  Decompiling 1401bb7eb, pcode error at 1401bb862: Unable to resolve constructor at 1401bb862 (DecompileCallback)  
+WARN  Decompiling 1401bbbd2, pcode error at 1401bbbc6: Unable to resolve constructor at 1401bbbc6 (DecompileCallback)  
+WARN  Decompiling 1401bbbd2, pcode error at 1401bbc1b: Unable to resolve constructor at 1401bbc1b (DecompileCallback)  
+WARN  Decompiling 1401bc784, pcode error at 17f1c6a9f: Could not follow disassembly flow into non-existing memory at 17f1c6a9f (DecompileCallback)  
+WARN  Decompiling 1401bc9d9, pcode error at 1401bc9e3: Unable to resolve constructor at 1401bc9e3 (DecompileCallback)  
+WARN  Decompiling 1401bcd9e, pcode error at 1401bcdbd: Unable to resolve constructor at 1401bcdbd (DecompileCallback)  
+WARN  Decompiling 1401bcd9e, pcode error at 1401bcdbd: Unable to resolve constructor at 1401bcdbd (DecompileCallback)  
+WARN  Decompiling 1401bd463, pcode error at 1401bd463: Failed to resolve varnode <Sreg>, index=6 (DecompileCallback)  
+WARN  Decompiling 1401bd9b0, pcode error at 1401bd9b8: Unable to resolve constructor at 1401bd9b8 (DecompileCallback)  
+WARN  Decompiling 1401bdfea, pcode error at 1401bdfea: Unable to resolve constructor at 1401bdfea (DecompileCallback)  
+WARN  Decompiling 1401be190, pcode error at 1401be190: Unable to resolve constructor at 1401be190 (DecompileCallback)  
+WARN  Decompiling 1401be360, pcode error at 1401be382: Unable to resolve constructor at 1401be382 (DecompileCallback)  
+WARN  Decompiling 1401be360, pcode error at 1401be382: Unable to resolve constructor at 1401be382 (DecompileCallback)  
+WARN  Decompiling 1401be68b, pcode error at 1401be68d: Unable to resolve constructor at 1401be68d (DecompileCallback)  
+WARN  Decompiling 1401be68b, pcode error at 1401be65a: Unable to resolve constructor at 1401be65a (DecompileCallback)  
+WARN  Decompiling 1401be68b, pcode error at 1401be62e: Unable to resolve constructor at 1401be62e (DecompileCallback)  
+WARN  Decompiling 1401beb21, pcode error at 1401beaed: Unable to resolve constructor at 1401beaed (DecompileCallback)  
+WARN  Decompiling 1401bed43, pcode error at 1401bed5a: Unable to resolve constructor at 1401bed5a (DecompileCallback)  
+WARN  Decompiling 1401bed43, pcode error at 1401bedb2: Unable to resolve constructor at 1401bedb2 (DecompileCallback)  
+WARN  Decompiling 1401bed43, pcode error at 1401beced: Unable to resolve constructor at 1401beced (DecompileCallback)  
+WARN  Decompiling 1401bed43, pcode error at 1401bed39: Unable to resolve constructor at 1401bed39 (DecompileCallback)  
+WARN  Decompiling 1401bf1fc, pcode error at 1401bf1fe: Unable to resolve constructor at 1401bf1fe (DecompileCallback)  
+WARN  Decompiling 1401bf604, pcode error at 1401bf616: Unable to resolve constructor at 1401bf616 (DecompileCallback)  
+WARN  Decompiling 1401bf604, pcode error at 1401bf616: Unable to resolve constructor at 1401bf616 (DecompileCallback)  
+WARN  Decompiling 1401bfc5f, pcode error at 1401bfc61: Unable to resolve constructor at 1401bfc61 (DecompileCallback)  
+WARN  Decompiling 1401c0330, pcode error at 1401c0330: Unable to resolve constructor at 1401c0330 (DecompileCallback)  
+WARN  Decompiling 1401c066c, pcode error at 1401c0671: Unable to resolve constructor at 1401c0671 (DecompileCallback)  
+WARN  Decompiling 1401c09d5, pcode error at 1401c09ed: Unable to resolve constructor at 1401c09ed (DecompileCallback)  
+WARN  Decompiling 1401c0b0e, pcode error at 1401c0b15: Unable to resolve constructor at 1401c0b15 (DecompileCallback)  
+WARN  Decompiling 1401c13ba, pcode error at 1401c13c7: Unable to resolve constructor at 1401c13c7 (DecompileCallback)  
+WARN  Decompiling 1401c13ba, pcode error at 1401c13b6: Unable to resolve constructor at 1401c13b6 (DecompileCallback)  
+WARN  Decompiling 1401c16e6, pcode error at 1401c16e6: Unable to resolve constructor at 1401c16e6 (DecompileCallback)  
+WARN  Decompiling 1401c196b, pcode error at 1401c197b: Failed to resolve varnode <Sreg>, index=7 (DecompileCallback)  
+WARN  Decompiling 1401c21a2, pcode error at 1401c21a4: Unable to resolve constructor at 1401c21a4 (DecompileCallback)  
+WARN  Decompiling 1401c21a2, pcode error at 1401c2162: Unable to resolve constructor at 1401c2162 (DecompileCallback)  
+WARN  Decompiling 1401c2b97, pcode error at 1401c2bb7: Unable to resolve constructor at 1401c2bb7 (DecompileCallback)  
+WARN  Decompiling 1401c2e35, pcode error at 1401c2e3d: Unable to resolve constructor at 1401c2e3d (DecompileCallback)  
+WARN  Decompiling 1401c2fdb, pcode error at 1401c2fe8: Unable to resolve constructor at 1401c2fe8 (DecompileCallback)  
+WARN  Decompiling 1401c3528, pcode error at 1401c3528: Unable to resolve constructor at 1401c3528 (DecompileCallback)  
+WARN  Decompiling 1401c3889, pcode error at 1401c3889: Unable to resolve constructor at 1401c3889 (DecompileCallback)  
+WARN  Decompiling 1401c415e, pcode error at 1401c415e: Unable to resolve constructor at 1401c415e (DecompileCallback)  
+WARN  Decompiling 1401c4403, pcode error at 1401c4403: Unable to resolve constructor at 1401c4403 (DecompileCallback)  
+WARN  Decompiling 1401c465a, pcode error at 1401c4662: Unable to resolve constructor at 1401c4662 (DecompileCallback)  
+WARN  Decompiling 1401c4cb9, pcode error at 1401c4ccc: Unable to resolve constructor at 1401c4ccc (DecompileCallback)  
+WARN  Decompiling 1401c4f8b, pcode error at 1401c4fa0: Unable to resolve constructor at 1401c4fa0 (DecompileCallback)  
+WARN  Decompiling 1401c4f8b, pcode error at 1401c4fe7: Unable to resolve constructor at 1401c4fe7 (DecompileCallback)  
+WARN  Decompiling 1401c4f8b, pcode error at 1401c4fa0: Unable to resolve constructor at 1401c4fa0 (DecompileCallback)  
+WARN  Decompiling 1401c4f8b, pcode error at 1401c4fe7: Unable to resolve constructor at 1401c4fe7 (DecompileCallback)  
+WARN  Decompiling 1401c5840, pcode error at 1401c584a: Unable to resolve constructor at 1401c584a (DecompileCallback)  
+WARN  Decompiling 1401c5a7b, pcode error at 1401c5a8a: Unable to resolve constructor at 1401c5a8a (DecompileCallback)  
+WARN  Decompiling 1401c65d3, pcode error at 1401c65e1: Unable to resolve constructor at 1401c65e1 (DecompileCallback)  
+WARN  Decompiling 1401c6dfb, pcode error at 1401c6e00: Unable to resolve constructor at 1401c6e00 (DecompileCallback)  
+WARN  Decompiling 1401c7279, pcode error at 1401c727d: Unable to resolve constructor at 1401c727d (DecompileCallback)  
+WARN  Decompiling 1401c8204, pcode error at 1401c8204: Unable to resolve constructor at 1401c8204 (DecompileCallback)  
+WARN  Decompiling 1401c850f, pcode error at 1401c850f: Unable to resolve constructor at 1401c850f (DecompileCallback)  
+WARN  Decompiling 1401c87b7, pcode error at 1401c87c2: Unable to resolve constructor at 1401c87c2 (DecompileCallback)  
+WARN  Decompiling 1401c8a8c, pcode error at 1401c8a8c: Unable to resolve constructor at 1401c8a8c (DecompileCallback)  
+WARN  Decompiling 1401c8d55, pcode error at 1401c8d69: Unable to resolve constructor at 1401c8d69 (DecompileCallback)  
+WARN  Decompiling 1401c957c, pcode error at 1401c957c: Unable to resolve constructor at 1401c957c (DecompileCallback)  
+WARN  Decompiling 1401c9eac, pcode error at 1401c9edb: Unable to resolve constructor at 1401c9edb (DecompileCallback)  
+WARN  Decompiling 1401c9eac, pcode error at 1401c9edb: Unable to resolve constructor at 1401c9edb (DecompileCallback)  
+WARN  Decompiling 1401ca76a, pcode error at 1401ca777: Unable to resolve constructor at 1401ca777 (DecompileCallback)  
+WARN  Decompiling 1401cab64, pcode error at 1401cab85: Unable to resolve constructor at 1401cab85 (DecompileCallback)  
+WARN  Decompiling 1401cad2c, pcode error at 1401cad37: Unable to resolve constructor at 1401cad37 (DecompileCallback)  
+WARN  Decompiling 1401cb67c, pcode error at 1401cb67c: Unable to resolve constructor at 1401cb67c (DecompileCallback)  
+WARN  Decompiling 1401cb8f3, pcode error at 1401cb902: Unable to resolve constructor at 1401cb902 (DecompileCallback)  
+WARN  Decompiling 1401cc6ae, pcode error at 1401cc6ae: Unable to resolve constructor at 1401cc6ae (DecompileCallback)  
+WARN  Decompiling 1401cce59, pcode error at 1401cce6e: Unable to resolve constructor at 1401cce6e (DecompileCallback)  
+WARN  Decompiling 1401cd2ec, pcode error at 1401cd2ec: Unable to resolve constructor at 1401cd2ec (DecompileCallback)  
+WARN  Decompiling 1401cde86, pcode error at 1401cde97: Unable to resolve constructor at 1401cde97 (DecompileCallback)  
+WARN  Decompiling 1401ce13f, pcode error at 1401ce146: Unable to resolve constructor at 1401ce146 (DecompileCallback)  
+WARN  Decompiling 1401ce360, pcode error at 1401ce360: Unable to resolve constructor at 1401ce360 (DecompileCallback)  
+WARN  Decompiling 1401ce5af, pcode error at 1401ce5ca: Unable to resolve constructor at 1401ce5ca (DecompileCallback)  
+WARN  Decompiling 1401ce7c9, pcode error at 1401ce7d8: Unable to resolve constructor at 1401ce7d8 (DecompileCallback)  
+WARN  Decompiling 1401ce7c9, pcode error at 1401ce7d8: Unable to resolve constructor at 1401ce7d8 (DecompileCallback)  
+WARN  Decompiling 1401ced53, pcode error at 1401ced53: Unable to resolve constructor at 1401ced53 (DecompileCallback)  
+WARN  Decompiling 1401cf0ca, pcode error at 1401cf0d5: Unable to resolve constructor at 1401cf0d5 (DecompileCallback)  
+WARN  Decompiling 1401cf0ca, pcode error at 1401cf09d: Failed to resolve varnode <Sreg>, index=7 (DecompileCallback)  
+WARN  Decompiling 1401cf0ca, pcode error at 1401cf0c6: Unable to resolve constructor at 1401cf0c6 (DecompileCallback)  
+WARN  Decompiling 1401cf34a, pcode error at 1401cf364: Unable to resolve constructor at 1401cf364 (DecompileCallback)  
+WARN  Decompiling 1401cff2d, pcode error at 1401cff40: Unable to resolve constructor at 1401cff40 (DecompileCallback)  
+WARN  Decompiling 1401cff2d, pcode error at 1401cfef0: Unable to resolve constructor at 1401cfef0 (DecompileCallback)  
+WARN  Decompiling 1401d01f5, pcode error at 1401d0202: Unable to resolve constructor at 1401d0202 (DecompileCallback)  
+WARN  Decompiling 1401d03e2, pcode error at 1401d03fa: Unable to resolve constructor at 1401d03fa (DecompileCallback)  
+WARN  Decompiling 1401d07da, pcode error at 1401d07de: Unable to resolve constructor at 1401d07de (DecompileCallback)  
+WARN  Decompiling 1401d09c0, pcode error at 1832c5257: Could not follow disassembly flow into non-existing memory at 1832c5257 (DecompileCallback)  
+INFO  DumpAll.java> decompiled 1200 funcs (GhidraScript)  
+WARN  Decompiling 1401d0c79, pcode error at 1401d0c88: Unable to resolve constructor at 1401d0c88 (DecompileCallback)  
+WARN  Decompiling 1401d10eb, pcode error at 1401d10eb: Unable to resolve constructor at 1401d10eb (DecompileCallback)  
+WARN  Decompiling 1401d12fe, pcode error at 1401d130d: Unable to resolve constructor at 1401d130d (DecompileCallback)  
+WARN  Decompiling 1401d18a4, pcode error at 1401d18ab: Unable to resolve constructor at 1401d18ab (DecompileCallback)  
+WARN  Decompiling 1401d241e, pcode error at 1401d2433: Unable to resolve constructor at 1401d2433 (DecompileCallback)  
+WARN  Decompiling 1401d2720, pcode error at 1401d2722: Unable to resolve constructor at 1401d2722 (DecompileCallback)  
+WARN  Decompiling 1401d2abd, pcode error at 1401d2ae6: Unable to resolve constructor at 1401d2ae6 (DecompileCallback)  
+WARN  Decompiling 1401d2df5, pcode error at 1401d2e07: Unable to resolve constructor at 1401d2e07 (DecompileCallback)  
+WARN  Decompiling 1401d3079, pcode error at 1401d309c: Unable to resolve constructor at 1401d309c (DecompileCallback)  
+WARN  Decompiling 1401d3079, pcode error at 1401d309c: Unable to resolve constructor at 1401d309c (DecompileCallback)  
+WARN  Decompiling 1401d322e, pcode error at 1401d324a: Unable to resolve constructor at 1401d324a (DecompileCallback)  
+WARN  Decompiling 1401d35e4, pcode error at 1401d35fd: Unable to resolve constructor at 1401d35fd (DecompileCallback)  
+WARN  Decompiling 1401d40c4, pcode error at 1401d40d9: Unable to resolve constructor at 1401d40d9 (DecompileCallback)  
+WARN  Decompiling 1401d46ed, pcode error at 1401d46fe: Unable to resolve constructor at 1401d46fe (DecompileCallback)  
+WARN  Decompiling 1401d52c8, pcode error at 1401d52c8: Unable to resolve constructor at 1401d52c8 (DecompileCallback)  
+WARN  Decompiling 1401d5673, pcode error at 1401d568c: Unable to resolve constructor at 1401d568c (DecompileCallback)  
+WARN  Decompiling 1401d5673, pcode error at 1401d5624: Unable to resolve constructor at 1401d5624 (DecompileCallback)  
+WARN  Decompiling 1401d5a77, pcode error at 1401d5a77: Unable to resolve constructor at 1401d5a77 (DecompileCallback)  
+WARN  Decompiling 1401d5e69, pcode error at 1401d5e6b: Unable to resolve constructor at 1401d5e6b (DecompileCallback)  
+WARN  Decompiling 1401d604a, pcode error at 1401d604a: Unable to resolve constructor at 1401d604a (DecompileCallback)  
+WARN  Decompiling 1401d6410, pcode error at 1401d6414: Unable to resolve constructor at 1401d6414 (DecompileCallback)  
+WARN  Decompiling 1401d6562, pcode error at 1401d6564: Unable to resolve constructor at 1401d6564 (DecompileCallback)  
+WARN  Decompiling 1401d6f5b, pcode error at 1401d6f5b: Unable to resolve constructor at 1401d6f5b (DecompileCallback)  
+WARN  Decompiling 1401d775d, pcode error at 1401d7760: Unable to resolve constructor at 1401d7760 (DecompileCallback)  
+WARN  Decompiling 1401d775d, pcode error at 1401d7742: Unable to resolve constructor at 1401d7742 (DecompileCallback)  
+WARN  Decompiling 1401d77c2, pcode error at 1401d77c8: Unable to resolve constructor at 1401d77c8 (DecompileCallback)  
+WARN  Decompiling 1401d7b05, pcode error at 1401d7b1e: Unable to resolve constructor at 1401d7b1e (DecompileCallback)  
+WARN  Decompiling 1401d7b05, pcode error at 1401d7b1e: Unable to resolve constructor at 1401d7b1e (DecompileCallback)  
+WARN  Decompiling 1401d8502, pcode error at 1401d8502: Unable to resolve constructor at 1401d8502 (DecompileCallback)  
+WARN  Decompiling 1401d926a, pcode error at 1401d9289: Unable to resolve constructor at 1401d9289 (DecompileCallback)  
+WARN  Decompiling 1401d94a4, pcode error at 1401d94a6: Unable to resolve constructor at 1401d94a6 (DecompileCallback)  
+WARN  Decompiling 1401d985a, pcode error at 1401d9863: Unable to resolve constructor at 1401d9863 (DecompileCallback)  
+WARN  Decompiling 1401d9b6d, pcode error at 1401d9b6d: Unable to resolve constructor at 1401d9b6d (DecompileCallback)  
+WARN  Decompiling 1401d9dda, pcode error at 1401d9de0: Unable to resolve constructor at 1401d9de0 (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da0bc: Unable to resolve constructor at 1401da0bc (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da052: Unable to resolve constructor at 1401da052 (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da0ca: Unable to resolve constructor at 1401da0ca (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da0bc: Unable to resolve constructor at 1401da0bc (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da052: Unable to resolve constructor at 1401da052 (DecompileCallback)  
+WARN  Decompiling 1401da0ac, pcode error at 1401da0ca: Unable to resolve constructor at 1401da0ca (DecompileCallback)  
+WARN  Decompiling 1401da377, pcode error at 1401da398: Unable to resolve constructor at 1401da398 (DecompileCallback)  
+WARN  Decompiling 1401da377, pcode error at 1401da398: Unable to resolve constructor at 1401da398 (DecompileCallback)  
+WARN  Decompiling 1401daec6, pcode error at 1401daedf: Unable to resolve constructor at 1401daedf (DecompileCallback)  
+WARN  Decompiling 1401db526, pcode error at f40004d9: Could not follow disassembly flow into non-existing memory at f40004d9 (DecompileCallback)  
+WARN  Decompiling 1401db616, pcode error at 1b615f4a1: Could not follow disassembly flow into non-existing memory at 1b615f4a1 (DecompileCallback)  
+WARN  Decompiling 1401dbad8, pcode error at 1401dbaf1: Unable to resolve constructor at 1401dbaf1 (DecompileCallback)  
+WARN  Decompiling 1401dc0ec, pcode error at 1401dc0fb: Unable to resolve constructor at 1401dc0fb (DecompileCallback)  
+WARN  Decompiling 1401dc354, pcode error at 1401dc35d: Unable to resolve constructor at 1401dc35d (DecompileCallback)  
+WARN  Decompiling 1401dc401, pcode error at 1401dc401: Unable to resolve constructor at 1401dc401 (DecompileCallback)  
+WARN  Decompiling 1401dc63c, pcode error at 1401dc63c: Unable to resolve constructor at 1401dc63c (DecompileCallback)  
+WARN  Decompiling 1401dc91b, pcode error at 1401dc922: Unable to resolve constructor at 1401dc922 (DecompileCallback)  
+WARN  Decompiling 1401dcd61, pcode error at 1401dcd70: Unable to resolve constructor at 1401dcd70 (DecompileCallback)  
+WARN  Decompiling 1401dd004, pcode error at 1401dcfd9: Unable to resolve constructor at 1401dcfd9 (DecompileCallback)  
+WARN  Decompiling 1401dd004, pcode error at 1401dcfc2: Unable to resolve constructor at 1401dcfc2 (DecompileCallback)  
+WARN  Decompiling 1401dd004, pcode error at 1401dcfd9: Unable to resolve constructor at 1401dcfd9 (DecompileCallback)  
+WARN  Decompiling 1401dd004, pcode error at 1401dcfc2: Unable to resolve constructor at 1401dcfc2 (DecompileCallback)  
+WARN  Decompiling 1401dd903, pcode error at 1401dd92d: Unable to resolve constructor at 1401dd92d (DecompileCallback)  
+WARN  Decompiling 1401ddeb9, pcode error at 1401dded2: Unable to resolve constructor at 1401dded2 (DecompileCallback)  
+WARN  Decompiling 1401de148, pcode error at 1401de0eb: Unable to resolve constructor at 1401de0eb (DecompileCallback)  
+WARN  Decompiling 1401de148, pcode error at 1401de0eb: Unable to resolve constructor at 1401de0eb (DecompileCallback)  
+WARN  Decompiling 1401de459, pcode error at 1401de477: Unable to resolve constructor at 1401de477 (DecompileCallback)  
+WARN  Decompiling 1401de459, pcode error at 1401de48b: Unable to resolve constructor at 1401de48b (DecompileCallback)  
+WARN  Decompiling 1401dea55, pcode error at 1401dea5f: Failed to resolve varnode <Sreg>, index=7 (DecompileCallback)  
+WARN  Decompiling 1401def3f, pcode error at 1401def40: Unable to resolve constructor at 1401def40 (DecompileCallback)  
+WARN  Decompiling 1401df62e, pcode error at 1401df657: Unable to resolve constructor at 1401df657 (DecompileCallback)  
+WARN  Decompiling 1401df93b, pcode error at 1401df93f: Unable to resolve constructor at 1401df93f (DecompileCallback)  
+WARN  Decompiling 1401df93b, pcode error at 1401df9b6: Unable to resolve constructor at 1401df9b6 (DecompileCallback)  
+WARN  Decompiling 1401df93b, pcode error at 1401df93f: Unable to resolve constructor at 1401df93f (DecompileCallback)  
+WARN  Decompiling 1401df93b, pcode error at 1401df9b6: Unable to resolve constructor at 1401df9b6 (DecompileCallback)  
+WARN  Decompiling 1401dfd14, pcode error at 1401dfd35: Unable to resolve constructor at 1401dfd35 (DecompileCallback)  
+WARN  Decompiling 1401e0128, pcode error at 1401e0128: Unable to resolve constructor at 1401e0128 (DecompileCallback)  
+WARN  Decompiling 1401e03cd, pcode error at 1401e03e2: Unable to resolve constructor at 1401e03e2 (DecompileCallback)  
+WARN  Decompiling 1401e05f2, pcode error at 1401e05fd: Unable to resolve constructor at 1401e05fd (DecompileCallback)  
+WARN  Decompiling 1401e0860, pcode error at 1401e0845: Unable to resolve constructor at 1401e0845 (DecompileCallback)  
+WARN  Decompiling 1401e0dc0, pcode error at 1401e0db8: Unable to resolve constructor at 1401e0db8 (DecompileCallback)  
+WARN  Decompiling 1401e1375, pcode error at 1401e1389: Unable to resolve constructor at 1401e1389 (DecompileCallback)  
+WARN  Decompiling 1401e1375, pcode error at 1401e133e: Unable to resolve constructor at 1401e133e (DecompileCallback)  
+WARN  Decompiling 1401e1375, pcode error at 1401e1389: Unable to resolve constructor at 1401e1389 (DecompileCallback)  
+WARN  Decompiling 1401e1375, pcode error at 1401e133e: Unable to resolve constructor at 1401e133e (DecompileCallback)  
+WARN  Decompiling 1401e17e1, pcode error at 1401e17e4: Unable to resolve constructor at 1401e17e4 (DecompileCallback)  
+WARN  Decompiling 1401e1984, pcode error at 1401e1989: Unable to resolve constructor at 1401e1989 (DecompileCallback)  
+WARN  Decompiling 1401e19cd, pcode error at 1401e19dc: Unable to resolve constructor at 1401e19dc (DecompileCallback)  
+WARN  Decompiling 1401e1c6e, pcode error at 1401e1c6e: Unable to resolve constructor at 1401e1c6e (DecompileCallback)  
+WARN  Decompiling 1401e2117, pcode error at 1401e213c: Unable to resolve constructor at 1401e213c (DecompileCallback)  
+WARN  Decompiling 1401e2398, pcode error at 1401e237e: Unable to resolve constructor at 1401e237e (DecompileCallback)  
+WARN  Decompiling 1401e288c, pcode error at 1401e289e: Unable to resolve constructor at 1401e289e (DecompileCallback)  
+WARN  Decompiling 1401e3674, pcode error at 1401e367f: Unable to resolve constructor at 1401e367f (DecompileCallback)  
+WARN  Decompiling 1401e3674, pcode error at 1401e3638: Unable to resolve constructor at 1401e3638 (DecompileCallback)  
+WARN  Decompiling 1401e4602, pcode error at 1401e4605: Unable to resolve constructor at 1401e4605 (DecompileCallback)  
+WARN  Decompiling 1401e4f19, pcode error at 1401e4f1b: Unable to resolve constructor at 1401e4f1b (DecompileCallback)  
+WARN  Decompiling 1401e5680, pcode error at 1401e5680: Unable to resolve constructor at 1401e5680 (DecompileCallback)  
+WARN  Decompiling 1401e5f67, pcode error at 1401e5f8d: Unable to resolve constructor at 1401e5f8d (DecompileCallback)  
+WARN  Decompiling 1401e65f8, pcode error at 1401e65fa: Unable to resolve constructor at 1401e65fa (DecompileCallback)  
+WARN  Decompiling 1401e7105, pcode error at 1401e712f: Unable to resolve constructor at 1401e712f (DecompileCallback)  
+WARN  Decompiling 1401e7355, pcode error at 1401e7355: Unable to resolve constructor at 1401e7355 (DecompileCallback)  
+WARN  Decompiling 1401e77f9, pcode error at 1401e77f9: Unable to resolve constructor at 1401e77f9 (DecompileCallback)  
+WARN  Decompiling 1401e7bd1, pcode error at 1401e7bd1: Unable to resolve constructor at 1401e7bd1 (DecompileCallback)  
+WARN  Decompiling 1401e84ec, pcode error at 1401e84f8: Unable to resolve constructor at 1401e84f8 (DecompileCallback)  
+WARN  Decompiling 1401e86dc, pcode error at 1401e8701: Unable to resolve constructor at 1401e8701 (DecompileCallback)  
+WARN  Decompiling 1401e86dc, pcode error at 1401e8772: Unable to resolve constructor at 1401e8772 (DecompileCallback)  
+WARN  Decompiling 1401e86dc, pcode error at 1401e870f: Unable to resolve constructor at 1401e870f (DecompileCallback)  
+WARN  Decompiling 1401e89a2, pcode error at 1401e89bd: Unable to resolve constructor at 1401e89bd (DecompileCallback)  
+WARN  Decompiling 1401e8a39, pcode error at 1401e8a41: Unable to resolve constructor at 1401e8a41 (DecompileCallback)  
+WARN  Decompiling 1401e8a39, pcode error at 1401e8a50: Unable to resolve constructor at 1401e8a50 (DecompileCallback)  
+WARN  Decompiling 1401e95f8, pcode error at 1401e9609: Unable to resolve constructor at 1401e9609 (DecompileCallback)  
+WARN  Decompiling 1401e9934, pcode error at 1401e9936: Unable to resolve constructor at 1401e9936 (DecompileCallback)  
+WARN  Decompiling 1401e9b6b, pcode error at 1401e9b8d: Unable to resolve constructor at 1401e9b8d (DecompileCallback)  
+WARN  Decompiling 1401ea339, pcode error at 1401ea339: Unable to resolve constructor at 1401ea339 (DecompileCallback)  
+WARN  Decompiling 1401ea35c, pcode error at 1401ea361: Unable to resolve constructor at 1401ea361 (DecompileCallback)  
+WARN  Decompiling 1401ea9c7, pcode error at 1401ea9d4: Unable to resolve constructor at 1401ea9d4 (DecompileCallback)  
+WARN  Decompiling 1401eb460, pcode error at 1401eb462: Unable to resolve constructor at 1401eb462 (DecompileCallback)  
+WARN  Decompiling 1401eb998, pcode error at 1401eb99b: Unable to resolve constructor at 1401eb99b (DecompileCallback)  
+WARN  Decompiling 1401eba65, pcode error at 1401eba86: Unable to resolve constructor at 1401eba86 (DecompileCallback)  
+WARN  Decompiling 1401ebd1a, pcode error at 1401ebd21: Unable to resolve constructor at 1401ebd21 (DecompileCallback)  
+WARN  Decompiling 1401ec174, pcode error at 1401ec18d: Unable to resolve constructor at 1401ec18d (DecompileCallback)  
+WARN  Decompiling 1401ec3af, pcode error at 1401ec3c1: Unable to resolve constructor at 1401ec3c1 (DecompileCallback)  
+WARN  Decompiling 1401ec920, pcode error at 1401ec936: Unable to resolve constructor at 1401ec936 (DecompileCallback)  
+WARN  Decompiling 1401ec920, pcode error at 1401ec936: Unable to resolve constructor at 1401ec936 (DecompileCallback)  
+WARN  Decompiling 1401ecfef, pcode error at 1401ecff5: Unable to resolve constructor at 1401ecff5 (DecompileCallback)  
+WARN  Decompiling 1401ed1ee, pcode error at 1401ed1f9: Unable to resolve constructor at 1401ed1f9 (DecompileCallback)  
+WARN  Decompiling 1401ed5ff, pcode error at 1401ed603: Unable to resolve constructor at 1401ed603 (DecompileCallback)  
+WARN  Decompiling 1401ee2b8, pcode error at 1401ee2c5: Unable to resolve constructor at 1401ee2c5 (DecompileCallback)  
+WARN  Decompiling 1401ee493, pcode error at 1401ee49f: Unable to resolve constructor at 1401ee49f (DecompileCallback)  
+WARN  Decompiling 1401ee649, pcode error at c64e37eb: Could not follow disassembly flow into non-existing memory at c64e37eb (DecompileCallback)  
+WARN  Decompiling 1401ee649, pcode error at c64e37eb: Could not follow disassembly flow into non-existing memory at c64e37eb (DecompileCallback)  
+WARN  Decompiling 1401eee08, pcode error at 1401eee23: Unable to resolve constructor at 1401eee23 (DecompileCallback)  
+WARN  Decompiling 1401ef84b, pcode error at 1401ef876: Unable to resolve constructor at 1401ef876 (DecompileCallback)  
+WARN  Decompiling 1401ef84b, pcode error at 1401ef842: Unable to resolve constructor at 1401ef842 (DecompileCallback)  
+WARN  Decompiling 1401ef8c9, pcode error at 1401ef8d4: Unable to resolve constructor at 1401ef8d4 (DecompileCallback)  
+WARN  Decompiling 1401efe92, pcode error at 1401efe9d: Unable to resolve constructor at 1401efe9d (DecompileCallback)  
+WARN  Decompiling 1401f0c51, pcode error at 1401f0c51: Unable to resolve constructor at 1401f0c51 (DecompileCallback)  
+WARN  Decompiling 1401f0e37, pcode error at 1401f0e5d: Unable to resolve constructor at 1401f0e5d (DecompileCallback)  
+WARN  Decompiling 1401f12b1, pcode error at 1401f12b1: Unable to resolve constructor at 1401f12b1 (DecompileCallback)  
+WARN  Decompiling 1401f151b, pcode error at 1401f152a: Unable to resolve constructor at 1401f152a (DecompileCallback)  
+WARN  Decompiling 1401f151b, pcode error at 1401f152a: Unable to resolve constructor at 1401f152a (DecompileCallback)  
+WARN  Decompiling 1401f17db, pcode error at 1401f17e9: Unable to resolve constructor at 1401f17e9 (DecompileCallback)  
+WARN  Decompiling 1401f1d28, pcode error at 1401f1d46: Unable to resolve constructor at 1401f1d46 (DecompileCallback)  
+WARN  Decompiling 1401f1eef, pcode error at 1401f1f0a: Unable to resolve constructor at 1401f1f0a (DecompileCallback)  
+WARN  Decompiling 1401f2348, pcode error at 1401f2348: Unable to resolve constructor at 1401f2348 (DecompileCallback)  
+WARN  Decompiling 1401f26f5, pcode error at 1401f26ff: Unable to resolve constructor at 1401f26ff (DecompileCallback)  
+WARN  Decompiling 1401f2feb, pcode error at 1401f2feb: Unable to resolve constructor at 1401f2feb (DecompileCallback)  
+WARN  Decompiling 1401f3224, pcode error at 1401f322e: Unable to resolve constructor at 1401f322e (DecompileCallback)  
+WARN  Decompiling 1401f3247, pcode error at 1401f3262: Unable to resolve constructor at 1401f3262 (DecompileCallback)  
+WARN  Decompiling 1401f3247, pcode error at 1401f31f3: Unable to resolve constructor at 1401f31f3 (DecompileCallback)  
+WARN  Decompiling 1401f34a7, pcode error at 1401f3451: Unable to resolve constructor at 1401f3451 (DecompileCallback)  
+WARN  Decompiling 1401f34a7, pcode error at 1401f3451: Unable to resolve constructor at 1401f3451 (DecompileCallback)  
+WARN  Decompiling 1401f37e1, pcode error at 1401f37e1: Unable to resolve constructor at 1401f37e1 (DecompileCallback)  
+WARN  Decompiling 1401f3a08, pcode error at 1401f3a2e: Unable to resolve constructor at 1401f3a2e (DecompileCallback)  
+WARN  Decompiling 1401f3c9b, pcode error at 1401f3cbd: Unable to resolve constructor at 1401f3cbd (DecompileCallback)  
+WARN  Decompiling 1401f4035, pcode error at 1401f4040: Unable to resolve constructor at 1401f4040 (DecompileCallback)  
+WARN  Decompiling 1401f4751, pcode error at 1401f4762: Unable to resolve constructor at 1401f4762 (DecompileCallback)  
+WARN  Decompiling 1401f496b, pcode error at 1401f4924: Unable to resolve constructor at 1401f4924 (DecompileCallback)  
+WARN  Decompiling 1401f496b, pcode error at 1401f4957: Unable to resolve constructor at 1401f4957 (DecompileCallback)  
+WARN  Decompiling 1401f4bd7, pcode error at 1401f4bed: Unable to resolve constructor at 1401f4bed (DecompileCallback)  
+WARN  Decompiling 1401f4f2b, pcode error at 1401f4f2b: Unable to resolve constructor at 1401f4f2b (DecompileCallback)  
+WARN  Decompiling 1401f5dc5, pcode error at 1401f5dc9: Unable to resolve constructor at 1401f5dc9 (DecompileCallback)  
+WARN  Decompiling 1401f5dc5, pcode error at 1401f5d70: Unable to resolve constructor at 1401f5d70 (DecompileCallback)  
+WARN  Decompiling 1401f6bc1, pcode error at 1401f6bc1: Unable to resolve constructor at 1401f6bc1 (DecompileCallback)  
+WARN  Decompiling 1401f6c20, pcode error at 1401f6c27: Unable to resolve constructor at 1401f6c27 (DecompileCallback)  
+WARN  Decompiling 1401f738c, pcode error at 1401f738c: Unable to resolve constructor at 1401f738c (DecompileCallback)  
+WARN  Decompiling 1401f7726, pcode error at 1401f7747: Unable to resolve constructor at 1401f7747 (DecompileCallback)  
+WARN  Decompiling 1401f7939, pcode error at 1401f7939: Unable to resolve constructor at 1401f7939 (DecompileCallback)  
+WARN  Decompiling 1401f8028, pcode error at 1401f8029: Unable to resolve constructor at 1401f8029 (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f8247: Unable to resolve constructor at 1401f8247 (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f823c: Unable to resolve constructor at 1401f823c (DecompileCallback)  
+WARN  Decompiling 1401f82fa, pcode error at 1401f8286: Unable to resolve constructor at 1401f8286 (DecompileCallback)  
+WARN  Decompiling 1401f8987, pcode error at 1401f8997: Unable to resolve constructor at 1401f8997 (DecompileCallback)  
+WARN  Decompiling 1401f8d41, pcode error at 1401f8d59: Unable to resolve constructor at 1401f8d59 (DecompileCallback)  
+WARN  Decompiling 1401f90bd, pcode error at 1401f90c8: Unable to resolve constructor at 1401f90c8 (DecompileCallback)  
+WARN  Decompiling 1401f97f6, pcode error at 1401f9810: Unable to resolve constructor at 1401f9810 (DecompileCallback)  
+WARN  Decompiling 1401fa0fe, pcode error at 1401fa0ed: Unable to resolve constructor at 1401fa0ed (DecompileCallback)  
+WARN  Decompiling 1401fa0fe, pcode error at 1401fa0ed: Unable to resolve constructor at 1401fa0ed (DecompileCallback)  
+WARN  Decompiling 1401fa38d, pcode error at 1401fa3a3: Unable to resolve constructor at 1401fa3a3 (DecompileCallback)  
+WARN  Decompiling 1401fa86e, pcode error at 1401fa884: Unable to resolve constructor at 1401fa884 (DecompileCallback)  
+WARN  Decompiling 1401fab5b, pcode error at 1401fab16: Unable to resolve constructor at 1401fab16 (DecompileCallback)  
+WARN  Decompiling 1401fae98, pcode error at 1401faea0: Unable to resolve constructor at 1401faea0 (DecompileCallback)  
+INFO  DumpAll.java> decompiled 1400 funcs (GhidraScript)  
+WARN  Decompiling 1401fb61e, pcode error at 1401fb61e: Unable to resolve constructor at 1401fb61e (DecompileCallback)  
+WARN  Decompiling 1401fbcfe, pcode error at 00add383: Could not follow disassembly flow into non-existing memory at 00add383 (DecompileCallback)  
+WARN  Decompiling 1401fbece, pcode error at 1401fbed2: Unable to resolve constructor at 1401fbed2 (DecompileCallback)  
+WARN  Decompiling 1401fc15b, pcode error at 1401fc15c: Unable to resolve constructor at 1401fc15c (DecompileCallback)  
+WARN  Decompiling 1401fc32c, pcode error at 1401fc32c: Unable to resolve constructor at 1401fc32c (DecompileCallback)  
+WARN  Decompiling 1401fc613, pcode error at 1401fc613: Unable to resolve constructor at 1401fc613 (DecompileCallback)  
+WARN  Decompiling 1401fc947, pcode error at 1401fc950: Unable to resolve constructor at 1401fc950 (DecompileCallback)  
+WARN  Decompiling 1401fcc88, pcode error at 1401fcc93: Unable to resolve constructor at 1401fcc93 (DecompileCallback)  
+WARN  Decompiling 1401fd37d, pcode error at 1401fd38c: Unable to resolve constructor at 1401fd38c (DecompileCallback)  
+WARN  Decompiling 1401fd37d, pcode error at 1401fd3ce: Unable to resolve constructor at 1401fd3ce (DecompileCallback)  
+WARN  Decompiling 1401fe034, pcode error at 11f683b8d: Could not follow disassembly flow into non-existing memory at 11f683b8d (DecompileCallback)  
+WARN  Decompiling 1401fe6aa, pcode error at 1401fe6ba: Unable to resolve constructor at 1401fe6ba (DecompileCallback)  
+WARN  Decompiling 1401fe969, pcode error at 1401fe96d: Unable to resolve constructor at 1401fe96d (DecompileCallback)  
+WARN  Decompiling 1401ff19a, pcode error at 1401ff19a: Unable to resolve constructor at 1401ff19a (DecompileCallback)  
+WARN  Decompiling 1401ff9fa, pcode error at 1401ff9fd: Unable to resolve constructor at 1401ff9fd (DecompileCallback)  
+WARN  Decompiling 140200005, pcode error at 140200008: Unable to resolve constructor at 140200008 (DecompileCallback)  
+WARN  Decompiling 1402002c3, pcode error at 1402002cc: Unable to resolve constructor at 1402002cc (DecompileCallback)  
+WARN  Decompiling 1402005f7, pcode error at 1402005ff: Unable to resolve constructor at 1402005ff (DecompileCallback)  
+WARN  Decompiling 140200953, pcode error at 14020095b: Unable to resolve constructor at 14020095b (DecompileCallback)  
+WARN  Decompiling 140200953, pcode error at 140200928: Unable to resolve constructor at 140200928 (DecompileCallback)  
+WARN  Decompiling 14020178e, pcode error at 140201798: Unable to resolve constructor at 140201798 (DecompileCallback)  
+WARN  Decompiling 140201f4b, pcode error at 140201f4d: Unable to resolve constructor at 140201f4d (DecompileCallback)  
+WARN  Decompiling 14020264b, pcode error at 14020265b: Unable to resolve constructor at 14020265b (DecompileCallback)  
+WARN  Decompiling 14020264b, pcode error at 1402026a6: Unable to resolve constructor at 1402026a6 (DecompileCallback)  
+WARN  Decompiling 140202ee7, pcode error at 140202ee7: Unable to resolve constructor at 140202ee7 (DecompileCallback)  
+WARN  Decompiling 1402037e0, pcode error at 1402037e6: Unable to resolve constructor at 1402037e6 (DecompileCallback)  
+WARN  Decompiling 140203e30, pcode error at 140203e75: Unable to resolve constructor at 140203e75 (DecompileCallback)  
+WARN  Decompiling 140203e30, pcode error at 140203f30: Unable to resolve constructor at 140203f30 (DecompileCallback)  
+WARN  Decompiling 140203e30, pcode error at 140203f57: Unable to resolve constructor at 140203f57 (DecompileCallback)  
+WARN  Decompiling 140204621, pcode error at 1402046a4: Unable to resolve constructor at 1402046a4 (DecompileCallback)  
+WARN  Decompiling 140206083, pcode error at 140206091: Unable to resolve constructor at 140206091 (DecompileCallback)  
+WARN  Decompiling 14020676f, pcode error at 140206785: Unable to resolve constructor at 140206785 (DecompileCallback)  
+WARN  Decompiling 1402068b7, pcode error at 1402068c4: Unable to resolve constructor at 1402068c4 (DecompileCallback)  
+WARN  Decompiling 140206d2e, pcode error at 140206d39: Unable to resolve constructor at 140206d39 (DecompileCallback)  
+WARN  Decompiling 140206f0d, pcode error at 140206f0d: Unable to resolve constructor at 140206f0d (DecompileCallback)  
+WARN  Decompiling 140207105, pcode error at 14020710d: Unable to resolve constructor at 14020710d (DecompileCallback)  
+WARN  Decompiling 140208189, pcode error at 140208189: Unable to resolve constructor at 140208189 (DecompileCallback)  
+WARN  Decompiling 140208707, pcode error at 14020871d: Unable to resolve constructor at 14020871d (DecompileCallback)  
+WARN  Decompiling 1402089fb, pcode error at 1402089fb: Unable to resolve constructor at 1402089fb (DecompileCallback)  
+WARN  Decompiling 140208c81, pcode error at 140208cee: Unable to resolve constructor at 140208cee (DecompileCallback)  
+WARN  Decompiling 140209128, pcode error at 140209138: Unable to resolve constructor at 140209138 (DecompileCallback)  
+WARN  Decompiling 14020975f, pcode error at 14020975f: Unable to resolve constructor at 14020975f (DecompileCallback)  
+WARN  Decompiling 140209ac1, pcode error at 140209ae3: Unable to resolve constructor at 140209ae3 (DecompileCallback)  
+WARN  Decompiling 14020a2c6, pcode error at 14020a2d8: Unable to resolve constructor at 14020a2d8 (DecompileCallback)  
+WARN  Decompiling 14020ad8b, pcode error at 14020ad8b: Unable to resolve constructor at 14020ad8b (DecompileCallback)  
+WARN  Decompiling 14020afda, pcode error at 14020aff8: Unable to resolve constructor at 14020aff8 (DecompileCallback)  
+WARN  Decompiling 14020afda, pcode error at 14020afa7: Unable to resolve constructor at 14020afa7 (DecompileCallback)  
+WARN  Decompiling 14020b3c2, pcode error at 14020b3cf: Unable to resolve constructor at 14020b3cf (DecompileCallback)  
+WARN  Decompiling 14020b3f1, pcode error at 7dab3705: Could not follow disassembly flow into non-existing memory at 7dab3705 (DecompileCallback)  
+WARN  Decompiling 14020bfbf, pcode error at 14020bfdf: Unable to resolve constructor at 14020bfdf (DecompileCallback)  
+WARN  Decompiling 14020bfbf, pcode error at 14020c02d: Unable to resolve constructor at 14020c02d (DecompileCallback)  
+WARN  Decompiling 14020c214, pcode error at 14020c220: Unable to resolve constructor at 14020c220 (DecompileCallback)  
+WARN  Decompiling 14020c8e5, pcode error at 14020c8f0: Unable to resolve constructor at 14020c8f0 (DecompileCallback)  
+WARN  Decompiling 14020c8e5, pcode error at 14020c8df: Unable to resolve constructor at 14020c8df (DecompileCallback)  
+WARN  Decompiling 14020c8e5, pcode error at 14020c8f0: Unable to resolve constructor at 14020c8f0 (DecompileCallback)  
+WARN  Decompiling 14020c8e5, pcode error at 14020c8df: Unable to resolve constructor at 14020c8df (DecompileCallback)  
+WARN  Decompiling 14020d274, pcode error at 14020d286: Unable to resolve constructor at 14020d286 (DecompileCallback)  
+WARN  Decompiling 14020d274, pcode error at 14020d203: Unable to resolve constructor at 14020d203 (DecompileCallback)  
+WARN  Decompiling 14020d466, pcode error at 14020d475: Unable to resolve constructor at 14020d475 (DecompileCallback)  
+WARN  Decompiling 14020daf7, pcode error at 14020db02: Unable to resolve constructor at 14020db02 (DecompileCallback)  
+WARN  Decompiling 14020dd53, pcode error at 14020dd54: Unable to resolve constructor at 14020dd54 (DecompileCallback)  
+WARN  Decompiling 14020e237, pcode error at 14020e245: Unable to resolve constructor at 14020e245 (DecompileCallback)  
+WARN  Decompiling 1402121b3, pcode error at 1402121d6: Unable to resolve constructor at 1402121d6 (DecompileCallback)  
+WARN  Decompiling 1402121b3, pcode error at 1402121ab: Unable to resolve constructor at 1402121ab (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 140212dbd: Unable to resolve constructor at 140212dbd (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 07ba12b4: Could not follow disassembly flow into non-existing memory at 07ba12b4 (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 140212d9f: Unable to resolve constructor at 140212d9f (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 140212dbd: Unable to resolve constructor at 140212dbd (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 07ba12b4: Could not follow disassembly flow into non-existing memory at 07ba12b4 (DecompileCallback)  
+WARN  Decompiling 140212e14, pcode error at 140212d9f: Unable to resolve constructor at 140212d9f (DecompileCallback)  
+WARN  Decompiling 140212fd5, pcode error at 140212fd7: Unable to resolve constructor at 140212fd7 (DecompileCallback)  
+WARN  Decompiling 140213590, pcode error at 1402135a2: Unable to resolve constructor at 1402135a2 (DecompileCallback)  
+WARN  Decompiling 140213590, pcode error at 140213592: Unable to resolve constructor at 140213592 (DecompileCallback)  
+WARN  Decompiling 14021384c, pcode error at 14021384c: Unable to resolve constructor at 14021384c (DecompileCallback)  
+WARN  Decompiling 140213a54, pcode error at 140213a66: Unable to resolve constructor at 140213a66 (DecompileCallback)  
+WARN  Decompiling 140213ec6, pcode error at 140213eca: Unable to resolve constructor at 140213eca (DecompileCallback)  
+WARN  Decompiling 140214273, pcode error at 14021427b: Unable to resolve constructor at 14021427b (DecompileCallback)  
+WARN  Decompiling 1402147db, pcode error at 1402147f3: Unable to resolve constructor at 1402147f3 (DecompileCallback)  
+WARN  Decompiling 140215000, pcode error at 14021501c: Unable to resolve constructor at 14021501c (DecompileCallback)  
+WARN  Decompiling 1402151f6, pcode error at 1402151f9: Unable to resolve constructor at 1402151f9 (DecompileCallback)  
+WARN  Decompiling 140215d51, pcode error at 140215d57: Unable to resolve constructor at 140215d57 (DecompileCallback)  
+WARN  Decompiling 140215fa0, pcode error at 140215fc4: Unable to resolve constructor at 140215fc4 (DecompileCallback)  
+WARN  Decompiling 140215fa0, pcode error at 140215f74: Unable to resolve constructor at 140215f74 (DecompileCallback)  
+WARN  Decompiling 140215fa0, pcode error at 140215f04: Unable to resolve constructor at 140215f04 (DecompileCallback)  
+WARN  Decompiling 140215fa0, pcode error at 140215f07: Unable to resolve constructor at 140215f07 (DecompileCallback)  
+WARN  Decompiling 1402161cd, pcode error at 1402161d5: Unable to resolve constructor at 1402161d5 (DecompileCallback)  
+WARN  Decompiling 140217024, pcode error at 14021702f: Unable to resolve constructor at 14021702f (DecompileCallback)  
+WARN  Decompiling 14021723b, pcode error at 140217247: Unable to resolve constructor at 140217247 (DecompileCallback)  
+WARN  Decompiling 140217410, pcode error at 140217415: Unable to resolve constructor at 140217415 (DecompileCallback)  
+WARN  Decompiling 140217655, pcode error at 14021765a: Failed to resolve varnode <Sreg>, index=6 (DecompileCallback)  
+WARN  Decompiling 140217946, pcode error at 140217952: Unable to resolve constructor at 140217952 (DecompileCallback)  
+WARN  Decompiling 140218036, pcode error at 140218036: Unable to resolve constructor at 140218036 (DecompileCallback)  
+WARN  Decompiling 1402183dc, pcode error at 1402183f2: Unable to resolve constructor at 1402183f2 (DecompileCallback)  
+WARN  Decompiling 1402183dc, pcode error at 1402183f2: Unable to resolve constructor at 1402183f2 (DecompileCallback)  
+WARN  Decompiling 140218c6a, pcode error at 140218c7c: Unable to resolve constructor at 140218c7c (DecompileCallback)  
+WARN  Decompiling 140218e5a, pcode error at 140218e6e: Unable to resolve constructor at 140218e6e (DecompileCallback)  
+WARN  Decompiling 140218e5a, pcode error at 140218e31: Unable to resolve constructor at 140218e31 (DecompileCallback)  
+WARN  Decompiling 14021931b, pcode error at 140219331: Unable to resolve constructor at 140219331 (DecompileCallback)  
+WARN  Decompiling 14021931b, pcode error at 140219331: Unable to resolve constructor at 140219331 (DecompileCallback)  
+WARN  Decompiling 14021987d, pcode error at 140219896: Unable to resolve constructor at 140219896 (DecompileCallback)  
+WARN  Decompiling 14021987d, pcode error at 14021986c: Unable to resolve constructor at 14021986c (DecompileCallback)  
+WARN  Decompiling 14021987d, pcode error at 140219831: Unable to resolve constructor at 140219831 (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219afc: Unable to resolve constructor at 140219afc (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at a2cb0ca8: Could not follow disassembly flow into non-existing memory at a2cb0ca8 (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219aaa: Unable to resolve constructor at 140219aaa (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219a86: Unable to resolve constructor at 140219a86 (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219afc: Unable to resolve constructor at 140219afc (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at a2cb0ca8: Could not follow disassembly flow into non-existing memory at a2cb0ca8 (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219aaa: Unable to resolve constructor at 140219aaa (DecompileCallback)  
+WARN  Decompiling 140219ab0, pcode error at 140219a86: Unable to resolve constructor at 140219a86 (DecompileCallback)  
+WARN  Decompiling 14021a726, pcode error at 14021a731: Unable to resolve constructor at 14021a731 (DecompileCallback)  
+WARN  Decompiling 14021a726, pcode error at 14021a731: Unable to resolve constructor at 14021a731 (DecompileCallback)  
+WARN  Decompiling 14021a8fb, pcode error at 14021a8fb: Unable to resolve constructor at 14021a8fb (DecompileCallback)  
+WARN  Decompiling 14021aeb2, pcode error at 14021aeb5: Unable to resolve constructor at 14021aeb5 (DecompileCallback)  
+WARN  Decompiling 14021b424, pcode error at 14021b3cd: Unable to resolve constructor at 14021b3cd (DecompileCallback)  
+WARN  Decompiling 14021b424, pcode error at 14021b3cd: Unable to resolve constructor at 14021b3cd (DecompileCallback)  
+WARN  Decompiling 14021b8a5, pcode error at 14021b8b4: Unable to resolve constructor at 14021b8b4 (DecompileCallback)  
+WARN  Decompiling 14021bc07, pcode error at 14021bc0b: Unable to resolve constructor at 14021bc0b (DecompileCallback)  
+WARN  Decompiling 14021c2a4, pcode error at 1be2c9a8a: Could not follow disassembly flow into non-existing memory at 1be2c9a8a (DecompileCallback)  
+WARN  Decompiling 14021c983, pcode error at 14021c990: Unable to resolve constructor at 14021c990 (DecompileCallback)  
+WARN  Decompiling 14021c983, pcode error at 14021c990: Unable to resolve constructor at 14021c990 (DecompileCallback)  
+WARN  Decompiling 14021cdef, pcode error at 14021cdef: Unable to resolve constructor at 14021cdef (DecompileCallback)  
+WARN  Decompiling 14021d89d, pcode error at 14021d8a6: Unable to resolve constructor at 14021d8a6 (DecompileCallback)  
+WARN  Decompiling 14021eec3, pcode error at 14021eeec: Unable to resolve constructor at 14021eeec (DecompileCallback)  
+WARN  Decompiling 14021f8e4, pcode error at 14021f8e8: Unable to resolve constructor at 14021f8e8 (DecompileCallback)  
+WARN  Decompiling 140223ba2, pcode error at 140223bb0: Unable to resolve constructor at 140223bb0 (DecompileCallback)  
+WARN  Decompiling 140223ba2, pcode error at 140223b3e: Unable to resolve constructor at 140223b3e (DecompileCallback)  
+WARN  Decompiling 140224460, pcode error at 140224474: Failed to resolve varnode <Sreg>, index=7 (DecompileCallback)  
+WARN  Decompiling 140224460, pcode error at 140224454: Unable to resolve constructor at 140224454 (DecompileCallback)  
+WARN  Decompiling 140224460, pcode error at 140224466: Unable to resolve constructor at 140224466 (DecompileCallback)  
+WARN  Decompiling 14022549c, pcode error at 14022549c: Unable to resolve constructor at 14022549c (DecompileCallback)  
+WARN  Decompiling 14022565e, pcode error at 140225667: Unable to resolve constructor at 140225667 (DecompileCallback)  
+WARN  Decompiling 140225def, pcode error at 140225df6: Unable to resolve constructor at 140225df6 (DecompileCallback)  
+WARN  Decompiling 1402266c5, pcode error at 1402266d5: Unable to resolve constructor at 1402266d5 (DecompileCallback)  
+WARN  Decompiling 1402266c5, pcode error at 1402266bc: Unable to resolve constructor at 1402266bc (DecompileCallback)  
+WARN  Decompiling 140226d0f, pcode error at 140226d10: Unable to resolve constructor at 140226d10 (DecompileCallback)  
+WARN  Decompiling 140226ec9, pcode error at 140226ec9: Unable to resolve constructor at 140226ec9 (DecompileCallback)  
+WARN  Decompiling 1402274ac, pcode error at 1402274af: Unable to resolve constructor at 1402274af (DecompileCallback)  
+WARN  Decompiling 14022778d, pcode error at 140227791: Unable to resolve constructor at 140227791 (DecompileCallback)  
+WARN  Decompiling 14022778d, pcode error at 1402277b5: Unable to resolve constructor at 1402277b5 (DecompileCallback)  
+WARN  Decompiling 14022778d, pcode error at 140227791: Unable to resolve constructor at 140227791 (DecompileCallback)  
+WARN  Decompiling 14022778d, pcode error at 1402277b5: Unable to resolve constructor at 1402277b5 (DecompileCallback)  
+WARN  Decompiling 140227b29, pcode error at 140227b29: Unable to resolve constructor at 140227b29 (DecompileCallback)  
+WARN  Decompiling 140229df1, pcode error at 4dfab04a: Could not follow disassembly flow into non-existing memory at 4dfab04a (DecompileCallback)  
+WARN  Decompiling 14022a50b, pcode error at 14022a51c: Unable to resolve constructor at 14022a51c (DecompileCallback)  
+WARN  Decompiling 14022a9ae, pcode error at 14022a9c4: Unable to resolve constructor at 14022a9c4 (DecompileCallback)  
+WARN  Decompiling 14022af1d, pcode error at 14022af1f: Unable to resolve constructor at 14022af1f (DecompileCallback)  
+WARN  Decompiling 14022b898, pcode error at 14022b8a1: Unable to resolve constructor at 14022b8a1 (DecompileCallback)  
+WARN  Decompiling 14022b898, pcode error at 14022b881: Unable to resolve constructor at 14022b881 (DecompileCallback)  
+WARN  Decompiling 14022ba4a, pcode error at 14022ba4c: Unable to resolve constructor at 14022ba4c (DecompileCallback)  
+WARN  Decompiling 14022bf3f, pcode error at 14022bf58: Unable to resolve constructor at 14022bf58 (DecompileCallback)  
+WARN  Decompiling 14022bf3f, pcode error at 14022bf58: Unable to resolve constructor at 14022bf58 (DecompileCallback)  
+WARN  Decompiling 14022c277, pcode error at 14022c279: Unable to resolve constructor at 14022c279 (DecompileCallback)  
+WARN  Decompiling 14022c7c4, pcode error at 14022c7d5: Unable to resolve constructor at 14022c7d5 (DecompileCallback)  
+WARN  Decompiling 14022c7c4, pcode error at 14022c7a4: Unable to resolve constructor at 14022c7a4 (DecompileCallback)  
+WARN  Decompiling 14022c9f4, pcode error at 14022ca0f: Unable to resolve constructor at 14022ca0f (DecompileCallback)  
+WARN  Decompiling 14022cb0d, pcode error at 14022cb24: Unable to resolve constructor at 14022cb24 (DecompileCallback)  
+WARN  Decompiling 14022cb0d, pcode error at 14022cab0: Unable to resolve constructor at 14022cab0 (DecompileCallback)  
+WARN  Decompiling 14022ccea, pcode error at 14022ccea: Unable to resolve constructor at 14022ccea (DecompileCallback)  
+WARN  Decompiling 14022cf34, pcode error at 14022cf37: Unable to resolve constructor at 14022cf37 (DecompileCallback)  
+WARN  Decompiling 14022d726, pcode error at 14022d73a: Unable to resolve constructor at 14022d73a (DecompileCallback)  
+WARN  Decompiling 14022d96f, pcode error at 14022d96f: Unable to resolve constructor at 14022d96f (DecompileCallback)  
+WARN  Decompiling 14022e402, pcode error at 14022e41c: Unable to resolve constructor at 14022e41c (DecompileCallback)  
+WARN  Decompiling 14022e402, pcode error at 14022e42d: Unable to resolve constructor at 14022e42d (DecompileCallback)  
+WARN  Decompiling 14022e762, pcode error at 79ad643e: Could not follow disassembly flow into non-existing memory at 79ad643e (DecompileCallback)  
+WARN  Decompiling 14022eb74, pcode error at 140455531: Could not follow disassembly flow into non-existing memory at 140455531 (DecompileCallback)  
+WARN  Decompiling 14022f23f, pcode error at dcf47646: Could not follow disassembly flow into non-existing memory at dcf47646 (DecompileCallback)  
+WARN  Decompiling 14022f23f, pcode error at 14022f21a: Unable to resolve constructor at 14022f21a (DecompileCallback)  
+WARN  Decompiling 14022f7a9, pcode error at 14022f7ae: Unable to resolve constructor at 14022f7ae (DecompileCallback)  
+WARN  Decompiling 14023005f, pcode error at 140230061: Unable to resolve constructor at 140230061 (DecompileCallback)  
+WARN  Decompiling 140230330, pcode error at 140230333: Unable to resolve constructor at 140230333 (DecompileCallback)  
+WARN  Decompiling 140230c1c, pcode error at 140230c1e: Failed to resolve varnode <Sreg>, index=6 (DecompileCallback)  
+WARN  Decompiling 140230c1c, pcode error at 140230c1a: Unable to resolve constructor at 140230c1a (DecompileCallback)  
+WARN  Decompiling 140231992, pcode error at 1402319b7: Unable to resolve constructor at 1402319b7 (DecompileCallback)  
+WARN  Decompiling 14023236a, pcode error at 140232377: Unable to resolve constructor at 140232377 (DecompileCallback)  
+WARN  Decompiling 140232869, pcode error at 14023288f: Unable to resolve constructor at 14023288f (DecompileCallback)  
+WARN  Decompiling 140232e86, pcode error at 140232e8f: Unable to resolve constructor at 140232e8f (DecompileCallback)  
+INFO  DumpAll.java> decompiled 1600 funcs (GhidraScript)  
+WARN  Decompiling 140233b4d, pcode error at 140233b57: Unable to resolve constructor at 140233b57 (DecompileCallback)  
+WARN  Decompiling 140234e7a, pcode error at 140234e8c: Unable to resolve constructor at 140234e8c (DecompileCallback)  
+WARN  Decompiling 14023514b, pcode error at 140235171: Unable to resolve constructor at 140235171 (DecompileCallback)  
+WARN  Decompiling 14023530d, pcode error at 140235311: Unable to resolve constructor at 140235311 (DecompileCallback)  
+WARN  Decompiling 14023587d, pcode error at 140235892: Unable to resolve constructor at 140235892 (DecompileCallback)  
+WARN  Decompiling 14023587d, pcode error at 14023580d: Unable to resolve constructor at 14023580d (DecompileCallback)  
+WARN  Decompiling 140235bc4, pcode error at 140235bc4: Unable to resolve constructor at 140235bc4 (DecompileCallback)  
+WARN  Decompiling 140235f26, pcode error at 140235f32: Unable to resolve constructor at 140235f32 (DecompileCallback)  
+WARN  Decompiling 140236336, pcode error at 140236350: Unable to resolve constructor at 140236350 (DecompileCallback)  
+WARN  Decompiling 140236336, pcode error at 1402363b1: Unable to resolve constructor at 1402363b1 (DecompileCallback)  
+WARN  Decompiling 140236740, pcode error at 140236746: Unable to resolve constructor at 140236746 (DecompileCallback)  
+WARN  Decompiling 140236ad7, pcode error at 140236ae5: Unable to resolve constructor at 140236ae5 (DecompileCallback)  
+WARN  Decompiling 140236ad7, pcode error at 140236aaa: Unable to resolve constructor at 140236aaa (DecompileCallback)  
+WARN  Decompiling 140237be1, pcode error at 140237be6: Unable to resolve constructor at 140237be6 (DecompileCallback)  
+WARN  Decompiling 140238399, pcode error at 1402383bd: Unable to resolve constructor at 1402383bd (DecompileCallback)  
+WARN  Decompiling 140238595, pcode error at 1402385a2: Unable to resolve constructor at 1402385a2 (DecompileCallback)  
+WARN  Decompiling 140239ece, pcode error at 140239ef1: Unable to resolve constructor at 140239ef1 (DecompileCallback)  
+WARN  Decompiling 14023a7e4, pcode error at 14023a7fc: Unable to resolve constructor at 14023a7fc (DecompileCallback)  
+WARN  Decompiling 14023d19c, pcode error at 14023d1a5: Unable to resolve constructor at 14023d1a5 (DecompileCallback)  
+INFO  DumpAll.java> decompiled 1800 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 2000 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 2200 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 2400 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 2600 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 2800 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 3000 funcs (GhidraScript)  
+INFO  DumpAll.java> decompiled 3200 funcs (GhidraScript)  
+INFO  DumpAll.java> Total functions decompiled: 3386 (GhidraScript)  
+INFO  ANALYZING changes made by post scripts: file:///Users/romamorozevich/Downloads/fbt/follow.exe (HeadlessAnalyzer)  
+INFO  REPORT: Post-analysis succeeded for file: file:///Users/romamorozevich/Downloads/fbt/follow.exe (HeadlessAnalyzer)  
+INFO  /follow.exe: file created (romamorozevich) (LocalFileSystem)  
+INFO  REPORT: Save succeeded for: /follow.exe (follow:/follow.exe) (HeadlessAnalyzer)  
+INFO  REPORT: Import succeeded (HeadlessAnalyzer)  

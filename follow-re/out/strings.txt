@@ -1,0 +1,1270 @@
+14004a819	Error
+140058619	he updater.
+14005ad49	riptions
+140072699	riptions
+140072929	Thread
+140072a09	ualAllocEx
+140075749	Error
+140077a99	Memory
+14007ac69	riptions
+14007ad59	orizing
+14007caf9	emory
+140094ee9	Error
+14029b370	InitializeConditionVariable
+14029b390	SleepConditionVariableCS
+14029b3b0	WakeAllConditionVariable
+14029b400	ERROR : Unable to initialize critical section in CAtlBaseModule\n
+14029b4c0	Eater:Downside:Map boss gains:+10% to maximum Cold Resistance+80% to Cold Resistance+10% to maximum Lightning Resistance+80% to Lightning Resistance
+14029b634	70)% additional Physical Damage Reduction
+14029b690	Eater:Downside:Map boss gains:All Damage with Hits can Chill
+14029b710	Eater:Downside:Map boss gains:Hits always ShockAll Damage can Shock
+14029b7f6	30)% of Suppressed Spell Damage+100% chance to Suppress Spell Damage
+14029b970	25)% of Enemy Elemental Resistances
+14029ba0e	80)% of Physical Damage as Extra Cold DamageCover Enemies in Frost on Hit
+14029bb4a	200)% increased Blind Effect
+14029bbde	70)% of Maximum Life as Extra Maximum Energy Shield
+14029bc9e	130)% of Physical Damage as Extra Cold DamageAll Damage with Hits can Chill
+14029bdb0	130)% of Physical Damage as Extra Lightning DamageAll Damage can Shock
+14029be40	Eater:Downside:Map boss gains:Eldritch Tentacles
+14029bf16	80)% chance to ignore Enemy Physical Damage Reduction
+14029bff8	5) additional Projectiles
+14029c0fa	50)% increased Movement Speed
+14029c140	Eater:Downside:Eldritch Minions gain:+10% to maximum Cold Resistance+80% to Cold Resistance+10% to maximum Lightning Resistance+80% to Lightning Resistance
+14029c2d2	80)% additional Physical Damage Reduction
+14029c394	30)% of Suppressed Spell Damage+100% chance to Suppress Spell Damage
+14029c420	Eater:Downside:Eldritch Minions gain:100% chance to remove a random Charge from Enemy on Hit
+14029c4e0	Eater:Downside:Eldritch Minions gain:Drops Chilled Ground on Death, lasting 3 seconds
+14029c590	Eater:Downside:Eldritch Minions gain:100% chance to create Shocked Ground on Death, lasting 3 seconds
+14029c660	Eater:Downside:Eldritch Minions gain:Inflict 1 Grasping Vine on Hit
+14029c6f0	Eater:Downside:Eldritch Minions gain:Curse Enemies with Punishment on Hit
+14029c7ec	130)% of Physical Damage as Extra Lightning Damage
+14029c8bc	130)% of Physical Damage as Extra Cold Damage
+14029c99c	-40)% to Lightning Resistance
+14029ca22	-40)% additional Physical Damage Reduction
+14029cac0	50)% reduced Defences per Frenzy Charge
+14029cb50	20)% reduced Recovery Rate of Life, Mana and Energy Shield per Endurance Charge
+14029cc32	-20)% to Critical Strike Multiplier per Power Charge
+14029cce0	35)% chance for Enemies to drop Chilled Ground when Hitting you, no more than once every 2 seconds
+14029cdf0	35)% chance for Enemies to drop Shocked Ground when Hitting you, no more than once every 2 seconds
+14029cf4c	35)% chance to be Sapped when Hit
+14029cf90	Eater:Downside:Player gains:Nearby Enemies Gain 100% of their Physical Damage as Extra Cold Damage
+14029d060	Eater:Downside:Player gains:Nearby Enemies Gain 100% of their Physical Damage as Extra Lightning Damage
+14029d130	Eater:Downside:Player gains:Projectiles are fired in random directions
+14029d220	35)% chance to Hinder you
+14029d260	Eater:Downside:Player gains:Non-Damaging Ailments you inflict are reflected back to you
+14029d310	Eater:Downside:Player gains:number of grasping vines to gain every second while stationary
+14029d3d0	Eater:Downside:Map boss gains:Create Consecrated Ground on Hit, lasting 6 seconds
+14029d480	Exarch:Downside:Map boss gains:+10% to maximum Fire Resistance+80% to Fire Resistance+10% to maximum Chaos Resistance+80% to Chaos Resistance
+14029d5a0	Exarch:Downside:Map boss gains:+50000 to Armour
+14029d650	80)% of Physical Damage as Extra Fire DamageCover Enemies in Ash on Hit
+14029d6e0	Exarch:Downside:Map boss gains:Hits always IgniteAll Damage can Ignite
+14029d770	Exarch:Downside:Map boss gains:Poison on HitAll Damage from Hits can Poison
+14029d810	Exarch:Downside:Map boss gains:Enemies lose 6 Flask Charges every 3 seconds and cannot gain Flask Charges for 6 seconds after being Hit
+14029da12	25)% of Enemy Elemental Resistances
+14029da60	Exarch:Downside:Map boss gains:Your hits inflict Malediction
+14029db54	130)% of Physical Damage as Extra Fire DamageAll Damage can Ignite
+14029dc30	130)% of Physical Damage as Extra Chaos DamagePoison on HitAll Damage from Hits can Poison
+14029dd6e	200)% increased Evasion Rating
+14029ddb0	Exarch:Downside:Map boss gains:Nearby Enemies are Hindered, with 40% reduced Movement Speedhinder aura behaviour variation
+14029deb0	Exarch:Downside:Eldritch Minions gain:Drops Burning Ground on Death, lasting 3 seconds
+14029df60	Exarch:Downside:Eldritch Minions gain:Create Consecrated Ground on Death, lasting 6 seconds
+14029e07e	130)% of Physical Damage as Extra Damage of a random ElementInflict Fire, Cold, and Lightning Exposure on Hit
+14029e160	Exarch:Downside:Eldritch Minions gain:Enemies lose 6 Flask Charges every 3 seconds and cannot gain Flask Charges for 6 seconds after being Hit
+14029e280	Exarch:Downside:Eldritch Minions gain:+10% to maximum Fire Resistance+80% to Fire Resistance+10% to maximum Chaos Resistance+80% to Chaos Resistance
+14029e3b0	Exarch:Downside:Eldritch Minions gain:+50000 to Armour
+14029e474	130)% increased Area of Effect
+14029e516	500)% increased Evasion Rating
+14029e560	Exarch:Downside:Eldritch Minions gain:Hits always IgniteAll Damage can Ignite
+14029e600	Exarch:Downside:Eldritch Minions gain:Poison on HitAll Damage from Hits can Poison
+14029e6b0	Exarch:Downside:Eldritch Minions gain:Curse Enemies with Vulnerability on Hit
+14029e7ae	130)% of Physical Damage as Extra Chaos Damage
+14029e86e	130)% of Physical Damage as Extra Fire Damage
+14029e94e	-40)% to Chaos Resistance
+14029e990	Exarch:Downside:Player gains:-3000 to Armour-3000 to Evasion Rating
+14029eaac	60)% reduced Flask Effect Duration
+14029eb00	Exarch:Downside:Player gains:Take 600 Chaos Damage per second during any Flask Effect
+14029ec12	30)% chance to Hinder you
+14029ece4	35)% chance to be Scorched when Hit
+14029ed30	Exarch:Downside:Player gains:Curses you inflict are reflected back to you
+14029ee12	20)% chance for Enemies to drop Burning Ground when Hitting you, no more than once every 2 seconds
+14029eee0	Exarch:Downside:Player gains:30% chance to be targeted by a Meteor when you use a Flask
+14029ef90	Exarch:Downside:Player gains:Nearby Enemies Gain 100% of their Physical Damage as Extra Fire Damage
+14029f060	Exarch:Downside:Player gains:Nearby Enemies Gain 100% of their Physical Damage as Extra Chaos Damage
+14029f190	4) additional Divine Orbs
+14029f230	4) additional Exalted Orbs
+14029f2d0	4) additional Regal Orbs
+14029f370	4) additional Lesser Eldritch Ichors
+14029f420	4) additional Greater Eldritch Ichors
+14029f4d0	4) additional Grand Eldritch Ichors
+14029f580	4) additional Eldritch Chaos Orbs
+14029f630	4) additional Eldritch Exalted Orbs
+14029f6e0	4) additional Eldritch Orbs of Annulment
+14029f7a0	4) additional Chaos Orbs
+14029f840	4) additional Orbs of Alteration
+14029f8f0	4) additional Blessed Orbs
+14029f990	4) additional Orbs of Scouring
+14029fa30	4) additional Chromatic Orbs
+14029fad0	4) additional Orbs of Fusing
+14029fb70	4) additional Jeweller's Orbs
+14029fc00	3.2)% chance to drop an additional Divine Orb
+14029fcb0	3.2)% chance to drop an additional Exalted Orb
+14029fd60	3.2)% chance to drop an additional Regal Orb
+14029fe10	3.2)% chance to drop an additional Lesser Eldritch Ichor
+14029fee0	3.2)% chance to drop an additional Greater Eldritch Ichor
+14029ffb0	3.2)% chance to drop an additional Grand Eldritch Ichor
+1402a0070	3.2)% chance to drop an additional Eldritch Chaos Orb
+1402a0130	3.2)% chance to drop an additional Eldritch Exalted Orb
+1402a01f0	3.2)% chance to drop an additional Eldritch Orb of Annulment
+1402a02c0	3.2)% chance to drop an additional Chaos Orb
+1402a0370	3.2)% chance to drop an additional Orb of Alteration
+1402a0430	3.2)% chance to drop an additional Blessed Orb
+1402a04e0	3.2)% chance to drop an additional Orb of Scouring
+1402a05a0	3.2)% chance to drop an additional Chromatic Orb
+1402a0660	3.2)% chance to drop an additional Orb of Fusing
+1402a0720	3.2)% chance to drop an additional Jeweller's Orb
+1402a07e0	3.2)% chance to drop an additional Divination Card which rewards Currency
+1402a08d0	3.2)% chance to drop an additional Divination Card which rewards Basic Currency
+1402a09c0	3.2)% chance to drop an additional Divination Card which rewards League Currency
+1402a0ac0	3.2)% chance to drop an additional Divination Card which rewards other Divination Cards
+1402a0bc0	3.2)% chance to drop an additional Divination Card which rewards Gems
+1402a0ca0	3.2)% chance to drop an additional Divination Card which rewards Levelled Gems
+1402a0d90	3.2)% chance to drop an additional Divination Card which rewards Quality Gems
+1402a0e90	4) additional Divination Cards which reward Currency
+1402a0f60	4) additional Divination Cards which reward Basic Currency
+1402a1040	4) additional Divination Cards which reward League Currency
+1402a1120	4) additional Divination Cards which reward other Divination Cards
+1402a1210	4) additional Divination Cards which reward Gems
+1402a12e0	4) additional Divination Cards which reward Levelled Gems
+1402a13c0	4) additional Divination Cards which reward Quality Gems
+1402a14e2	30)% chance to be Duplicated
+1402a15a2	30)% chance to be Duplicated
+1402a1672	30)% chance to be Duplicated
+1402a1738	30)% chance to be Duplicated
+1402a1802	30)% chance to be Duplicated
+1402a18da	30)% chance to be Duplicated
+1402a19ca	35)% increased Rarity of Items found in this Area
+1402a1a92	4) additional Divine Orbs
+1402a1b32	4) additional Orbs of Binding
+1402a1bd2	4) additional Orbs of Horizons
+1402a1c72	4) additional Orbs of Unmaking
+1402a1d12	4) additional Cartographer's Chisels
+1402a1dc2	4) additional Lesser Eldritch Embers
+1402a1e72	4) additional Greater Eldritch Embers
+1402a1f22	4) additional Grand Eldritch Embers
+1402a1fd2	4) additional Eldritch Chaos Orbs
+1402a2082	4) additional Eldritch Exalted Orbs
+1402a2132	4) additional Eldritch Orbs of Annulment
+1402a21f2	4) additional Orbs of Annulment
+1402a22a2	4) additional Vaal Orbs
+1402a2342	4) additional Enkindling Orbs
+1402a23e2	4) additional Instilling Orbs
+1402a2482	4) additional Orbs of Regret
+1402a2522	4) additional Glassblower's Baubles
+1402a25d2	4) additional Gemcutter's Prisms
+1402a2682	4) additional Chaos Orbs
+1402a2712	3.2)% chance to drop an additional Divine Orb
+1402a27c2	3.2)% chance to drop an additional Orb of Binding
+1402a2882	3.2)% chance to drop an additional Orb of Horizons
+1402a2942	3.2)% chance to drop an additional Orb of Unmaking
+1402a2a02	3.2)% chance to drop an additional Cartographer's Chisel
+1402a2ad2	3.2)% chance to drop an additional Lesser Eldritch Ember
+1402a2ba2	3.2)% chance to drop an additional Greater Eldritch Ember
+1402a2c72	3.2)% chance to drop an additional Grand Eldritch Ember
+1402a2d42	3.2)% chance to drop an additional Eldritch Chaos Orb
+1402a2e02	3.2)% chance to drop an additional Eldritch Exalted Orb
+1402a2ed2	3.2)% chance to drop an additional Eldritch Orb of Annulment
+1402a2fa2	3.2)% chance to drop an additional Orb of Annulment
+1402a3062	3.2)% chance to drop an additional Vaal Orb
+1402a3112	3.2)% chance to drop an additional Enkindling Orb
+1402a31d2	3.2)% chance to drop an additional Instilling Orb
+1402a3292	3.2)% chance to drop an additional Orb of Regret
+1402a3352	3.2)% chance to drop an additional Glassblower's Bauble
+1402a3422	3.2)% chance to drop an additional Gemcutter's Prism
+1402a34e2	3.2)% chance to drop an additional Chaos Orb
+1402a3592	3.2)% chance to drop an additional Divination Card which rewards a Unique Item
+1402a3682	3.2)% chance to drop an additional Divination Card which rewards a Unique Weapon
+1402a3782	3.2)% chance to drop an additional Divination Card which rewards a Unique Armour
+1402a3882	3.2)% chance to drop an additional Divination Card which rewards Unique Jewellery
+1402a3982	3.2)% chance to drop an additional Divination Card which rewards a Corrupted Unique Item
+1402a3a92	3.2)% chance to drop an additional Divination Card which rewards a Map
+1402a3b72	3.2)% chance to drop an additional Divination Card which rewards a Unique Map
+1402a3c62	3.2)% chance to drop an additional Divination Card which rewards a Corrupted Item
+1402a3d72	4) additional Divination Cards which reward a Unique Item
+1402a3e52	4) additional Divination Cards which reward a Unique Weapon
+1402a3f32	4) additional Divination Cards which reward a Unique Armour
+1402a4012	4) additional Divination Cards which reward Unique Jewellery
+1402a40f2	4) additional Divination Cards which reward a Corrupted Unique Item
+1402a41e2	4) additional Divination Cards which reward a Map
+1402a42b2	4) additional Divination Cards which reward a Unique Map
+1402a4392	4) additional Divination Cards which reward a Corrupted Item
+1402a44b4	30)% chance to be Duplicated
+1402a4584	30)% chance to be Duplicated
+1402a464a	30)% chance to be Duplicated
+1402a4714	30)% chance to be Duplicated
+1402a47ec	30)% chance to be Duplicated
+1402a48dc	35)% increased Rarity of Items found in this Area
+1402a4994	2.4)% chance to drop an additional Lesser Eldritch Ichor
+1402a4a64	2.4)% chance to drop an additional Greater Eldritch Ichor
+1402a4b34	2.4)% chance to drop an additional Grand Eldritch Ichor
+1402a4bb0	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Lesser Eldritch Ichor
+1402a4c60	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Greater Eldritch Ichor
+1402a4d10	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Grand Eldritch Ichor
+1402a4e66	15)% chance to be Duplicated
+1402a4f26	15)% chance to be Duplicated
+1402a4fe6	15)% chance to be Duplicated
+1402a5060	15)% increased Quantity of Items found in this Area
+1402a510e	10)% increased Rarity of Items found in this Area
+1402a51be	12)% increased Experience gain
+1402a5254	2.4)% chance to drop an additional Lesser Eldritch Ember
+1402a5324	2.4)% chance to drop an additional Greater Eldritch Ember
+1402a53f4	2.4)% chance to drop an additional Grand Eldritch Ember
+1402a5470	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Lesser Eldritch Ember
+1402a5530	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Greater Eldritch Ember
+1402a55e0	Neutral:Upside:Map boss gains:Final Boss drops 1 additional Grand Eldritch Ember
+1402a56e0	3.2)% chance to drop an additional Breach Scarab
+1402a57b0	4) additional Breach Scarabs
+1402a5840	3.2)% chance to drop an additional Delirium Scarab
+1402a5910	4) additional Delirium Scarabs
+1402a59a0	3.2)% chance to drop an additional Legion Scarab
+1402a5a70	4) additional Legion Scarabs
+1402a5b00	3.2)% chance to drop an additional Blight Scarab
+1402a5bd0	4) additional Blight Scarabs
+1402a5c60	3.2)% chance to drop an additional Ritual Scarab
+1402a5d30	4) additional Ritual Scarabs
+1402a5dc0	3.2)% chance to drop an additional Harvest Scarab
+1402a5e90	4) additional Harvest Scarabs
+1402a5f20	3.2)% chance to drop an additional Ultimatum Scarab
+1402a5ff0	4) additional Ultimatum Scarabs
+1402a6080	3.2)% chance to drop an additional Abyss Scarab
+1402a6140	4) additional Abyss Scarabs
+1402a61d0	3.2)% chance to drop an additional Expedition Scarab
+1402a62a0	4) additional Expedition Scarabs
+1402a6340	3.2)% chance to drop an additional Betrayal Scarab
+1402a6410	4) additional Betrayal Scarabs
+1402a64a0	3.2)% chance to drop an additional Bestiary Scarab
+1402a6570	4) additional Bestiary Scarabs
+1402a6600	3.2)% chance to drop an additional Incursion Scarab
+1402a66d0	4) additional Incursion Scarabs
+1402a6760	3.2)% chance to drop an additional Sulphite Scarab
+1402a6830	4) additional Sulphite Scarabs
+1402a68c2	3.2)% chance to drop an additional Influence Scarab
+1402a6992	4) additional Influence Scarabs
+1402a6a32	3.2)% chance to drop an additional Cartography Scarab
+1402a6b02	4) additional Cartography Scarabs
+1402a6ba2	3.2)% chance to drop an additional Divination Scarab
+1402a6c72	4) additional Divination Scarabs
+1402a6d12	3.2)% chance to drop an additional Anarchy Scarab
+1402a6de2	4) additional Anarchy Scarabs
+1402a6e72	3.2)% chance to drop an additional Harbinger Scarab
+1402a6f42	4) additional Harbinger Scarabs
+1402a6fe2	3.2)% chance to drop an additional Miscellaneous Scarab
+1402a70c2	4) additional Miscellaneous Scarabs
+1402a7162	3.2)% chance to drop an additional Beyond Scarab
+1402a7232	4) additional Beyond Scarabs
+1402a72c2	3.2)% chance to drop an additional Torment Scarab
+1402a7392	4) additional Torment Scarabs
+1402a7422	3.2)% chance to drop an additional Ambush Scarab
+1402a74f2	4) additional Ambush Scarabs
+1402a7582	3.2)% chance to drop an additional Domination Scarab
+1402a7652	4) additional Domination Scarabs
+1402a76f2	3.2)% chance to drop an additional Essence Scarab
+1402a77c2	4) additional Essence Scarabs
+1402a7852	3.2)% chance to drop an additional Titanic Scarab
+1402a7922	4) additional Titanic Scarabs
+1402a7960	string too long
+1402a7970	invalid string position
+1402a7988	vector<T> too long
+1402a7c20	C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\atlmfc\include\afxwin1.inl
+1402a7cc8	Exception thrown in destructor
+1402a7d08	%Ts (%Ts:%d)\n%Ts
+1402a7d30	%Ts (%Ts:%d)
+1402a7d50	CAlterDialog
+1402a7d60	Searing Exarch upside mods
+1402a7d98	Eater of Worlds upside mods
+1402a7dd0	Downside mods
+1402a7df0	Map boss gains
+1402a7e10	(Boss)
+1402a7e20	Player gains
+1402a7e40	(Player)
+1402a7e58	Eldritch Minions gain
+1402a7e88	(Monster)
+1402a7ea0	Upside
+1402a7eb0	Exarch
+1402a7ec0	Neutral
+1402a7ed0	Eater
+1402a88b0	invalid stoi argument
+1402a88c8	stoi argument out of range
+1402a88f0	CAttackTab
+1402a8900	1000-1500
+1402a8920	Comma seperated list of inputs. Use "..." for a full list of available inputs. (Ex: 1,2,Q,W,E)
+1402a89e0	Time elapse (in miliseconds) between sending input(s).
+1402a8a50	Delay (in miliseconds) between sending multipule inputs.
+1402a8ad0	Activates inputs alternately when effect is triggered.
+1402a8b40	800 units is about an entire screen. Divide by 10 to get in-game units.
+1402a8bd0	Adds or removes a small delay to simulate human error.
+1402a8c40	Holds right-click for continuous attacks/casts.
+1402a9640	CAutoFlaskTab
+1402a9650	Comma seperated list of inputs. Use "..." for a full list of available inputs. Example: 1,2,Q,W,E
+1402a9720	Minimum time elapse (in miliseconds) between sending input(s).
+1402a97a0	Flask 1
+1402a97b0	Flask 2
+1402a97c0	Flask 3
+1402a97d0	Flask 4
+1402a97e0	Flask 5
+1402a9bf0	4000-6000
+1402a9c08	CBuffInputTab
+1402a9c18	https://pastebin.com/V3Uup42j
+1402aa680	CClickableStatic
+1402aa698	open
+1402aa6a8	Settings.cfg
+1402aa6c8	SeDebugPrivilege
+1402aa6f0	Loader Config
+1402aa710	kernel32.dll
+1402aa730	WriteProcessMemory
+1402aa758	VirtualProtectEx
+1402aa7b1	gfids
+1402aa7b8	.reloc
+1402aa9d0	Unknown exception
+1402aa9e8	bad cast
+1402aa9fc	Error 
+1402aaa08	 in WinHttpQueryDataAvailable.\n
+1402aaa30	 in WinHttpReadData.\n
+1402aaa50	Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36
+1402aab30	Content-Length:\s*(\d+)
+1402aab60	Invalid URL format
+1402aab78	(https?)://([^/]+)(/.*)?
+1402aacd0	;&e=%s;&user=%s;&pass=%s;&hw=%S;&req=%i;&vers=%S
+1402aae70	s0Rzj5P2
+1402aae80	PathOfExile.exe
+1402aaed0	PathOfExile_x64.exe
+1402aaef8	PathOfExileSteam.exe
+1402aaf28	Failed to get process ID!
+1402aaf48	Failed to get process handle!
+1402aaf68	Authorizing
+1402aaf80	bad conversion
+1402aaf90	vector<bool> too long
+1402aafa8	alnum
+1402aafb0	abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789_
+1402aaff0	alpha
+1402aaff8	alnum
+1402ab004	blank
+1402ab010	alpha
+1402ab01c	cntrl
+1402ab028	blank
+1402ab038	cntrl
+1402ab044	digit
+1402ab050	graph
+1402ab058	digit
+1402ab064	lower
+1402ab070	graph
+1402ab07c	print
+1402ab088	lower
+1402ab094	punct
+1402ab0a0	print
+1402ab0ac	space
+1402ab0b8	punct
+1402ab0c8	space
+1402ab0d4	upper
+1402ab0e8	upper
+1402ab0f4	xdigit
+1402ab100	xdigit
+1402aea28	CDistanceTriggerTab
+1402aea40	300-1000
+1402aede0	CDownloading
+1402aedf0	%0.1f KB/s
+1402af500	Path of Exile 2 only, Right-Click for more info.
+1402af640	CEditProfile
+1402af650	(unnamed)
+1402b0010	.exe
+1402b0028	\Profiles
+1402b0040	Controller (recommended)
+1402b0078	input
+1402b0088	Internal
+1402b00a0	Global Inputs (recommended)
+1402b00e0	TXT Files (*.txt)|*.txt|All Files (*.*)|*.*||
+1402b0148	autobot
+1402b0160	Input type, Right-Click for more info.
+1402b01b0	.txt
+1402b01c8	Name Error
+1402b01e0	Profile name already exists!
+1402b0220	Ready
+1402b0230	Loaded
+1402b0240	 Copy
+1402b0250	%0.1f%%
+1402b0260	Error
+1402b0270	No profile selected!
+1402b02a0	Failed
+1402b02b0	Loading...
+1402b02c8	global inputs
+1402b0318	Trigger when ES is
+1402b0340	Trigger when health is
+1402b0370	CHealthTriggerTab
+1402b0890	LEFTCLICK
+1402b08a8	0,1,2,3
+1402b08b8	SPACE
+1402b08c8	Don't set
+1402b08e0	INSERT
+1402b08f0	TILDE
+1402b0900	AfflictionInitiator,Abyss,Breach,DelveMineralVein,Essence,HeistSumgglersCache,LegionInitiator,OreType,Shrine,Strongbox,NamelessSeer,LakeReflectionDevice
+1402b0a40	DELETE
+1402b0a58	RSHIFT
+1402b0a70	LSHIFT
+1402b0a90	LEFT
+1402b0aa0	RIGHT
+1402b0ab8	NUMPAD4
+1402b0ac8	NUMPAD6
+1402b0ae0	DOWN
+1402b0af8	NUMPAD8
+1402b0b08	NUMPAD2
+1402b0b18	CHotkeyDlg
+1402b0b28	#KEYBOARD#
+1402b0b38	PAGEUP
+1402b0b48	PAGEDOWN
+1402b0b60	Controller is not connected
+1402b0b98	Index 
+1402b0ba8	NONE
+1402b0bb8	Controller is connected
+1402b0be8	%d / %d
+1402b0bf8	0 / 0
+1402b1000	Health / ES Trigger (Health Flask / Divination Dist)
+1402b1070	Distance Trigger (Quicksilver / Move skill)
+1402b10c8	CInputDialog
+1402b10e0	Timed Input (Utility Flasks / Vaal Skills)
+1402b1140	Attack (Culler / Curse / Focused Fire)
+1402b1190	Monsters Nearby Trigger (Vaal Grace / Discipline)
+1402b1200	On New Zone (Coruscating Elixir)
+1402b1250	On Respawn (Re-Activating Auras)
+1402b12a0	Auto Flask / Tincture (Coruscating Elixir / Divination Dist)
+1402b1320	Buff Input (Vaal Skills / Banners)
+1402b1370	Mana Trigger (Mana Flask / Skill Activations)
+1402b13d0	Link Input (Soul Link / Flame Link)
+1402b1ad8	CInputTabCtrl
+1402b1e50	Please set a Username before looking up domain.
+1402b1eb0	CKeepAliveDlg
+1402b2658	CKeyHelper
+1402b2a20	Abyss,
+1402b2a30	AfflictionInitiator,
+1402b2a60	CLeagueMechanics
+1402b2a78	HeistSumgglersCache,
+1402b2aa8	Essence,
+1402b2ac0	DelveMineralVein,
+1402b2ae8	Breach,
+1402b2af8	Strongbox,
+1402b2b10	Shrine,
+1402b2b20	OreType,
+1402b2b38	LegionInitiator,
+1402b2b60	LakeReflectionDevice,
+1402b2b90	NamelessSeer,
+1402b2f60	CLinkInputTab
+1402b3300	username
+1402b3318	remember password
+1402b3340	Login Failure
+1402b3350	CLoginDlg
+1402b3360	target
+1402b33d8	password
+1402b3768	CManaTriggerTab
+1402b3b40	Blight
+1402b3b50	Ambush
+1402b3b60	Fortune Favours the Brave
+1402b3b98	CMapModsTab
+1402b3ba8	Beyond
+1402b3bb8	Settlers
+1402b3bd0	Harbinger
+1402b3be8	Domination
+1402b3c00	Expedition
+1402b3c18	Ultimatum
+1402b3c30	Torment
+1402b3c40	Essence
+1402b3c50	Anarchy
+1402b3c60	Heist
+1402b3c70	Abyss
+1402b3c80	Ritual
+1402b3c90	Legion
+1402b3ca0	Harvest
+1402b3cb0	Delirium
+1402b3cc8	Breach
+1402b3ce0	CMonsterTriggerTab
+1402b4068	Navigation
+1402b4080	Map Mods
+1402b4098	CNavOptions
+1402b47e8	Start
+1402b4810	AfflictionInitiator,Shrine,Strongbox,Essence,OreType,HeistSumgglersCache,LegionInitiator,Breach,DelveMineralVein
+1402b48f8	CNavSettings
+1402b4910	4000
+1402b4920	Jungle Valley Map,Map
+1402b4950	Horned Scarab of Nemeses,Scarab
+1402b4998	Bottom
+1402b49a8	Only whitelist
+1402b49c8	2000
+1402b4e80	Useful for maintaining spawn protection until host is prepared.
+1402b4f00	CNewZoneTab
+1402b4f10	1000-2000
+1402b4f30	Time to wait (in miliseconds) after joining new zone.
+1402b5300	COnRespawnTab
+1402b5310	3000-5000
+1402b5330	Time to wait (in miliseconds) before sending input(s).
+1402b53a0	rtS, ccs=UTF-8
+1402b58e0	CPositionHelperDlg
+1402b58f8	\*.txt
+1402b5c80	CProfileNameDlg
+1402b5c90	Custom Profile
+1402b5d88	DISTANCE
+1402b5da0	HEALTH
+1402b5db0	RESPAWN
+1402b5dc0	NEWZONE
+1402b5dd0	INPUT
+1402b5de0	45-90
+1402b5df0	TIMED
+1402b5e00	SETTINGS
+1402b5e18	BUFF
+1402b5e28	FLASK
+1402b5e38	inputs
+1402b5e48	name
+1402b5e58	MONSTER
+1402b5e68	ATTACK
+1402b5e78	LINK
+1402b5e88	MANA
+1402b5e98	humanize
+1402b5eb0	alternate
+1402b5ec8	less
+1402b5ed8	energy
+1402b5ee8	delay
+1402b5ef8	elapse
+1402b5f08	buff
+1402b5f18	grace
+1402b5f28	hostdist
+1402b5f40	frontdist
+1402b5f58	nearby
+1402b5f68	monsters
+1402b5f80	distance
+1402b5f98	percent
+1402b5fa8	rightclick
+1402b5fc0	move
+1402b5fd8	greater
+1402b5fe8	flaskidx
+1402b6000	aimtype
+1402b6010	linkwait
+1402b6028	flat
+1402b6038	rarity
+1402b6048	monsternearby
+1402b6068	rightmax
+1402b6080	rightmin
+1402b6098	forwardmax
+1402b60b0	forwardmin
+1402b60c8	cooldown
+1402b60e0	active
+1402b60f0	relative
+1402b6108	safezone
+1402b6120	autoloot
+1402b6138	autores
+1402b6148	uniprice
+1402b6160	lootdist
+1402b6178	movekey
+1402b6188	closeall
+1402b61a0	respawn
+1402b61b0	spawn
+1402b61c0	tradedelay
+1402b61d8	tradename
+1402b61f0	backtrack
+1402b6208	stayzone
+1402b6220	acceptparty
+1402b6238	uniexc
+1402b6248	tradeinventory
+1402b6268	accepttrade
+1402b6280	navslot1
+1402b6298	tabindex
+1402b62b0	navslot3
+1402b62c8	navslot2
+1402b62e0	levelgems
+1402b62f8	pathfind
+1402b6310	stashloot
+1402b6328	login
+1402b6338	navdelay
+1402b6350	navguild
+1402b6368	navendpoint
+1402b6380	navportal
+1402b6398	navslot5
+1402b63b0	navslot4
+1402b63c8	navindex
+1402b63e0	navslot6
+1402b63f8	navaurabot
+1402b6410	navmechanics
+1402b6430	navaurawait
+1402b6448	navauradist
+1402b6460	navattack
+1402b6478	navreveal
+1402b6490	naventrance
+1402b64a8	navwait
+1402b64b8	mapquant
+1402b64d0	mapreg
+1402b64e0	mappack
+1402b64f0	maprarity
+1402b6508	navaltar
+1402b6520	navnamelesswait
+1402b6540	navaltardeny
+1402b6560	navaltarallow
+1402b6580	mapvaal
+1402b6590	mapchisel
+1402b65a8	devcraft
+1402b65c0	mapatlascomp
+1402b65e0	mapt17
+1402b65f0	maptier
+1402b6600	mapcraftindex
+1402b6620	mapcraft
+1402b6638	deviceindex
+1402b6658	activate
+1402b6670	player
+1402b6680	unload
+1402b6690	pause
+1402b66b0	select
+1402b6710	start
+1402b6740	keepalive
+1402b6780	ultimatum
+1402b6798	mercrev
+1402b67a8	hostname
+1402b67c0	ultblacklist
+1402b67e0	prescript
+1402b67f8	domain
+1402b6808	optin
+1402b6818	path
+1402b6828	Inputs=
+1402b6838	RightClick=1\r\n
+1402b6858	Less=
+1402b6868	Energy=
+1402b6880	info
+1402b6890	Name=
+1402b68a0	[INPUT=
+1402b68b0	Nearby=
+1402b68c0	MonsterNearby=
+1402b68e0	Rarity=
+1402b68f0	Monsters=
+1402b6908	Distance=
+1402b6920	Percent=
+1402b6938	HostDist=
+1402b6950	FrontDist=
+1402b6968	LinkWait=
+1402b6980	Target=
+1402b6990	Buff=
+1402b69a0	FlaskIdx=
+1402b69b8	Aim=
+1402b69c8	Greater=
+1402b69e0	Flat=
+1402b69f0	AimType=
+1402b6a08	Alternate=
+1402b6a20	Cooldown=
+1402b6a38	[SETTINGS]\r\n
+1402b6a58	Humanize=
+1402b6a70	Elapse=
+1402b6a80	Active=
+1402b6a90	Grace=
+1402b6aa0	Delay=
+1402b6ab0	ForwardMax=
+1402b6ac8	ForwardMin=
+1402b6ae0	MoveKey=
+1402b6af8	CloseAll=
+1402b6b10	Relative=
+1402b6b28	SafeZone=
+1402b6b40	RightMax=
+1402b6b58	RightMin=
+1402b6b70	UniPrice=
+1402b6b88	LootDist=
+1402b6ba0	AcceptParty=
+1402b6bc0	UniExc=
+1402b6bd0	Respawn=
+1402b6be8	Spawn=
+1402b6bf8	AutoLoot=
+1402b6c10	AutoRes=
+1402b6c28	Backtrack=
+1402b6c40	StayZone=
+1402b6c58	LevelGems=
+1402b6c70	Pathfind=
+1402b6c88	TradeInventory=
+1402b6ca8	AcceptTrade=
+1402b6cc8	TradeDelay=
+1402b6ce0	TradeName=
+1402b6cf8	NavSlot3=
+1402b6d10	NavSlot2=
+1402b6d28	NavSlot5=
+1402b6d40	NavSlot4=
+1402b6d58	StashLoot=
+1402b6d70	Login=
+1402b6d80	NavSlot1=
+1402b6d98	TabIndex=
+1402b6db0	NavEndpoint=
+1402b6dd0	NavPortal=
+1402b6de8	NavAttack=
+1402b6e00	NavReveal=
+1402b6e18	NavIndex=
+1402b6e30	NavSlot6=
+1402b6e48	NavDelay=
+1402b6e60	NavGuild=
+1402b6e78	NavAuraWait=
+1402b6e98	NavAuraDist=
+1402b6eb8	NavAltarAllow=
+1402b6ed8	NavAltar=
+1402b6ef0	NavWait=
+1402b6f08	NavEntrance=
+1402b6f28	NavAurabot=
+1402b6f40	NavMechanics=
+1402b6f60	MapPack=
+1402b6f78	MapRarity=
+1402b6f90	MapT17=
+1402b6fa0	MapTier=
+1402b6fb8	NavNamelessWait=
+1402b6fe0	NavAltarDeny=
+1402b7000	MapQuant=
+1402b7018	MapReg=
+1402b7028	DevCraft=
+1402b7040	MapAtlasComp=
+1402b7060	Activate=
+1402b7078	Player=
+1402b7088	MapCraftIndex=
+1402b70a8	MapCraft=
+1402b70c0	MapVaal=
+1402b70d8	MapChisel=
+1402b7110	Unload=
+1402b7120	Pause=
+1402b7138	DeviceIndex=
+1402b7158	Select=
+1402b7178	Start=
+1402b71e8	Domain=
+1402b71f8	UserName=
+1402b7210	PreScript=
+1402b7228	Password=
+1402b7250	KeepAlive=
+1402b7270	HostName=
+1402b7288	UltBlacklist=
+1402b72a8	Info=\r\n{
+1402b72c8	OptIn=
+1402b72d8	Path=
+1402b72e8	Ultimatum=
+1402b7300	MercRev=
+1402b7348	CRangeEdit
+1402b7360	Invalid input. Please enter a number or a range (e.g., 1000-2000).
+1402b73e8	^\d+(-\d+)?$
+1402b7ab8	CSettingDlg
+1402b7ac8	None
+1402b7ad8	-150
+1402b7ae8	-500
+1402b7b00	-100
+1402b7b18	All Players
+1402b7b30	Leader Only
+1402b81b0	CTargetDialog
+1402b81c0	(%X) %s
+1402b85e0	CTimedInputTab
+1402b8970	Error GetModuleBaseName : %lu
+1402b89b0	Error OpenProcess : %lu
+1402b8dd0	MonstersMod
+1402b8de8	GainCertainAmountRuin
+1402b8e18	LimitedFlasks
+1402b8e38	MonsterAppliesRuin
+1402b8e60	UltBlacklistDlg
+1402b8e70	DexterousMonsters
+1402b8e98	PreciseMonsters
+1402b8eb8	BuffsExpireFaster
+1402b8ee0	PhysicalTotem
+1402b8f00	ElementalTotem
+1402b8f20	OccasionalImpotence
+1402b8f48	OverwhelmingMonsters
+1402b8f78	LightningDamageFromMana
+1402b8fa8	BloodAltar
+1402b8fc0	VaalArena
+1402b8fd8	CertainMonsterMod
+1402b9000	ReducedRecovery
+1402b9020	ResistantMonsters
+1402b9048	EncounterDaemonEffect
+1402b9078	CantLeaveArea
+1402b9098	LessenedReach
+1402b90b8	PrismaticMonsters
+1402b90e0	EscalatingDamageTaken
+1402b9110	ChokingMiasma
+1402b9130	RestlessDead
+1402b9150	Revenant
+1402b9168	RestlessDeadRuin
+1402b9190	ChaoticTouch
+1402b91b0	EnvironmentalHazards
+1402b91e0	HinderingFlasks
+1402b9200	LethalRareMonsters
+1402b9228	SiphonedCharges
+1402b9248	CorruptedBlood
+1402b9268	ShrunkenReach
+1402b9288	SharedAuras
+1402b92a0	EscalatingMonsterSpeed
+1402b92d0	Sawblade
+1402b92e8	ScatteredProjectiles
+1402b9318	FrostInfection
+1402b9338	UnstoppableMonsters
+1402b9360	DeadlyMonsters
+1402b9380	UnluckyCrits
+1402b93a0	SiphoningMonsters
+1402b93c8	StormcallerRunes
+1402b93f0	CurseAilmentReflection
+1402b9420	Flamethrower
+1402b9440	DefeatAllWavesTime
+1402b9468	MonsterAppliesDebuff
+1402b9498	LessCooldownRecovery
+1402b94c8	LongerCooldowns
+1402b94e8	DebuffEncounter
+1402b9508	ShieldingMonsters
+1402bf364	.rdata
+1402bf478	.data
+1402bf4a8	.pdata
+1402cd520	mfc140u.dll
+1402cd52e	InitializeCriticalSectionEx
+1402cd54c	GetLastError
+1402cd55c	DeleteCriticalSection
+1402cd574	FindFirstFileW
+1402cd586	WritePrivateProfileStringW
+1402cd5a4	GetCurrentProcess
+1402cd5b8	GetModuleFileNameW
+1402cd5ce	FindClose
+1402cd5da	CreateFileW
+1402cd5e8	OpenProcess
+1402cd5f6	CreateToolhelp32Snapshot
+1402cd612	GetPrivateProfileStringW
+1402cd62e	Process32NextW
+1402cd640	Process32FirstW
+1402cd652	CloseHandle
+1402cd660	GetTickCount
+1402cd670	RtlAddFunctionTable
+1402cd686	Sleep
+1402cd68e	LoadLibraryA
+1402cd69e	CreateThread
+1402cd6ae	GetProcAddress
+1402cd6c0	GetModuleHandleW
+1402cd6d4	GetExitCodeProcess
+1402cd6ea	GetVolumeInformationW
+1402cd702	GetVolumeInformationA
+1402cd71a	OutputDebugStringW
+1402cd730	WaitForSingleObject
+1402cd746	FormatMessageW
+1402cd758	DeleteFileW
+1402cd766	LocalFree
+1402cd772	MultiByteToWideChar
+1402cd788	CompareFileTime
+1402cd79a	FindNextFileW
+1402cd7aa	GetFileTime
+1402cd7b8	QueryFullProcessImageNameW
+1402cd7d6	CreateEventW
+1402cd7e6	RtlCaptureContext
+1402cd7fa	RtlLookupFunctionEntry
+1402cd814	RtlVirtualUnwind
+1402cd828	UnhandledExceptionFilter
+1402cd844	SetUnhandledExceptionFilter
+1402cd862	TerminateProcess
+1402cd876	IsProcessorFeaturePresent
+1402cd892	QueryPerformanceCounter
+1402cd8ac	GetCurrentProcessId
+1402cd8c2	GetCurrentThreadId
+1402cd8d8	GetSystemTimeAsFileTime
+1402cd8f2	InitializeSListHead
+1402cd908	IsDebuggerPresent
+1402cd91c	GetStartupInfoW
+1402cd92c	KERNEL32.dll
+1402cd93c	EnableWindow
+1402cd94c	ReleaseDC
+1402cd958	GetSystemMetrics
+1402cd96c	SendMessageW
+1402cd97c	GetDC
+1402cd984	SetCursor
+1402cd990	LoadCursorW
+1402cd99e	MessageBoxW
+1402cd9ac	KillTimer
+1402cd9b8	SetTimer
+1402cd9c4	ReleaseCapture
+1402cd9d6	DrawIconEx
+1402cd9e4	SetCapture
+1402cd9f2	LoadIconW
+1402cd9fe	WindowFromPoint
+1402cda10	GetWindowRect
+1402cda20	IsIconic
+1402cda2c	GetClientRect
+1402cda3c	GetAsyncKeyState
+1402cda50	DrawIcon
+1402cda5c	InvalidateRect
+1402cda6e	ShowScrollBar
+1402cda7e	MessageBoxA
+1402cda8c	SystemParametersInfoW
+1402cdaa4	SetLayeredWindowAttributes
+1402cdac2	ClientToScreen
+1402cdad4	GetCursorPos
+1402cdae4	GetWindowThreadProcessId
+1402cdafe	USER32.dll
+1402cdb0c	GetTextExtentPoint32W
+1402cdb24	CreateFontIndirectW
+1402cdb3a	GetObjectW
+1402cdb48	GetStockObject
+1402cdb58	GDI32.dll
+1402cdb64	OpenProcessToken
+1402cdb78	AdjustTokenPrivileges
+1402cdb90	LookupPrivilegeValueW
+1402cdba8	CreateProcessWithLogonW
+1402cdbc2	LookupAccountNameW
+1402cdbd6	ADVAPI32.dll
+1402cdbe6	ShellExecuteW
+1402cdbf6	ShellExecuteA
+1402cdc06	ShellExecuteExW
+1402cdc16	SHELL32.dll
+1402cdc24	InitCommonControlsEx
+1402cdc3a	COMCTL32.dll
+1402cdc48	WS2_32.dll
+1402cdc56	?_Xbad_alloc@std@@YAXXZ
+1402cdc70	?_Xout_of_range@std@@YAXPEBD@Z
+1402cdc92	?_BADOFF@std@@3_JB
+1402cdca8	?_Xlength_error@std@@YAXPEBD@Z
+1402cdcca	?_Ipfx@?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA_N_N@Z
+1402cdd0e	?snextc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+1402cdd52	?sbumpc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+1402cdd96	?sgetc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@QEAAGXZ
+1402cddd8	?setstate@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEAAXH_N@Z
+1402cde1a	?widen@?$basic_ios@_WU?$char_traits@_W@std@@@std@@QEBA_WD@Z
+1402cde58	??0?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+1402cde96	??0?$basic_ios@_WU?$char_traits@_W@std@@@std@@IEAA@XZ
+1402cdece	??0?$basic_istream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@_N@Z
+1402cdf3e	??1?$basic_ios@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1402cdf76	??1?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1402cdfb4	?_Lock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+1402cdff6	?_Unlock@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@UEAAXXZ
+1402ce03a	?showmanyc@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JXZ
+1402ce082	?uflow@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAGXZ
+1402ce0c4	?xsgetn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEA_W_J@Z
+1402ce110	?xsputn@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAA_JPEB_W_J@Z
+1402ce15c	?setbuf@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAPEAV12@PEA_W_J@Z
+1402ce1ac	?sync@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAHXZ
+1402ce1ee	?imbue@?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@MEAAXAEBVlocale@2@@Z
+1402ce23e	??1?$basic_istream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1402ce27a	?_Xinvalid_argument@std@@YAXPEBD@Z
+1402ce2a0	_Wcscoll
+1402ce2ac	??1_Lockit@std@@QEAA@XZ
+1402ce2c6	??0_Lockit@std@@QEAA@H@Z
+1402ce2e2	?cout@std@@3V?$basic_ostream@DU?$char_traits@D@std@@@1@A
+1402ce31e	?_New_Locimp@_Locimp@locale@std@@CAPEAV123@AEBV123@@Z
+1402ce356	?_Getgloballocale@locale@std@@CAPEAV_Locimp@12@XZ
+1402ce38a	?_Init@locale@std@@CAPEAV_Locimp@12@_N@Z
+1402ce3b6	?uncaught_exception@std@@YA_NXZ
+1402ce3d8	?id@?$ctype@_W@std@@2V0locale@2@A
+1402ce3fc	?_Xregex_error@std@@YAXW4error_type@regex_constants@1@@Z
+1402ce438	?setw@std@@YA?AU?$_Smanip@_J@1@_J@Z
+1402ce45e	?id@?$collate@_W@std@@2V0locale@2@A
+1402ce484	?id@?$codecvt@_WDU_Mbstatet@@@std@@2V0locale@2@A
+1402ce4b8	_Wcsxfrm
+1402ce4c4	?sputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAA_JPEBD_J@Z
+1402ce50c	?sputc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEAAHD@Z
+1402ce54e	??0?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1402ce58a	?_Osfx@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAXXZ
+1402ce5c8	?flush@?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV12@XZ
+1402ce60c	?setstate@?$basic_ios@DU?$char_traits@D@std@@@std@@QEAAXH_N@Z
+1402ce64c	??0?$basic_ios@DU?$char_traits@D@std@@@std@@IEAA@XZ
+1402ce682	??0?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAA@PEAV?$basic_streambuf@DU?$char_traits@D@std@@@1@_N@Z
+1402ce6ee	??1?$basic_ios@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1402ce724	??1?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1402ce760	?_Lock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1402ce7a0	?_Unlock@?$basic_streambuf@DU?$char_traits@D@std@@@std@@UEAAXXZ
+1402ce7e2	?showmanyc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JXZ
+1402ce828	?uflow@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1402ce868	?xsgetn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEAD_J@Z
+1402ce8b0	?xsputn@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAA_JPEBD_J@Z
+1402ce8f8	?setbuf@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAPEAV12@PEAD_J@Z
+1402ce946	?sync@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAHXZ
+1402ce986	?imbue@?$basic_streambuf@DU?$char_traits@D@std@@@std@@MEAAXAEBVlocale@2@@Z
+1402ce9d4	??1?$basic_ostream@DU?$char_traits@D@std@@@std@@UEAA@XZ
+1402cea0e	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@P6AAEAVios_base@1@AEAV21@@Z@Z
+1402cea6a	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@H@Z
+1402ceaac	??6?$basic_ostream@DU?$char_traits@D@std@@@std@@QEAAAEAV01@K@Z
+1402ceaee	??4?$_Yarn@D@std@@QEAAAEAV01@PEBD@Z
+1402ceb14	?_Getcat@?$ctype@_W@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+1402ceb54	?tolower@?$ctype@_W@std@@QEBAPEB_WPEA_WPEB_W@Z
+1402ceb86	?tolower@?$ctype@_W@std@@QEBA_W_W@Z
+1402cebac	?is@?$ctype@_W@std@@QEBA_NF_W@Z
+1402cebce	??1?$codecvt@_WDU_Mbstatet@@@std@@MEAA@XZ
+1402cebfa	??0?$codecvt@_WDU_Mbstatet@@@std@@QEAA@_K@Z
+1402cec28	?out@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEB_W1AEAPEB_WPEAD3AEAPEAD@Z
+1402cec80	?in@?$codecvt@_WDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEA_W3AEAPEA_W@Z
+1402cecd6	?_Addfac@_Locimp@locale@std@@AEAAXPEAVfacet@23@_K@Z
+1402ced0c	??1facet@locale@std@@MEAA@XZ
+1402ced2c	??0facet@locale@std@@IEAA@_K@Z
+1402ced4e	?_Decref@facet@locale@std@@UEAAPEAV_Facet_base@3@XZ
+1402ced84	?_Incref@facet@locale@std@@UEAAXXZ
+1402cedaa	??Bid@locale@std@@QEAA_KXZ
+1402cedc8	?_Getcoll@_Locinfo@std@@QEBA?AU_Collvec@@XZ
+1402cedf6	??1_Locinfo@std@@QEAA@XZ
+1402cee12	??0_Locinfo@std@@QEAA@PEBD@Z
+1402cee32	??0?$basic_iostream@_WU?$char_traits@_W@std@@@std@@QEAA@PEAV?$basic_streambuf@_WU?$char_traits@_W@std@@@1@@Z
+1402ceea2	??1?$basic_iostream@_WU?$char_traits@_W@std@@@std@@UEAA@XZ
+1402ceee0	?id@?$codecvt@DDU_Mbstatet@@@std@@2V0locale@2@A
+1402cef12	?_Fiopen@std@@YAPEAU_iobuf@@PEB_WHH@Z
+1402cef3a	?_Getcat@?$codecvt@DDU_Mbstatet@@@std@@SA_KPEAPEBVfacet@locale@2@PEBV42@@Z
+1402cef88	?getloc@?$basic_streambuf@DU?$char_traits@D@std@@@std@@QEBA?AVlocale@2@XZ
+1402cefd4	?_Init@?$basic_streambuf@DU?$char_traits@D@std@@@std@@IEAAXXZ
+1402cf014	?unshift@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEAD1AEAPEAD@Z
+1402cf060	?in@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+1402cf0b4	?out@?$codecvt@DDU_Mbstatet@@@std@@QEBAHAEAU_Mbstatet@@PEBD1AEAPEBDPEAD3AEAPEAD@Z
+1402cf108	?always_noconv@codecvt_base@std@@QEBA_NXZ
+1402cf134	?toupper@?$ctype@_W@std@@QEBA_W_W@Z
+1402cf158	MSVCP140.dll
+1402cf17e	GetAdaptersInfo
+1402cf18e	IPHLPAPI.DLL
+1402cf19e	WinHttpQueryDataAvailable
+1402cf1ba	WinHttpConnect
+1402cf1cc	WinHttpSendRequest
+1402cf1e2	WinHttpCloseHandle
+1402cf1f8	WinHttpOpenRequest
+1402cf20e	WinHttpReadData
+1402cf220	WinHttpQueryHeaders
+1402cf236	WinHttpOpen
+1402cf244	WinHttpReceiveResponse
+1402cf25c	WINHTTP.dll
+1402cf268	XINPUT1_4.dll
+1402cf278	memmove
+1402cf282	__std_terminate
+1402cf294	__std_exception_destroy
+1402cf2ae	__std_exception_copy
+1402cf2c6	strstr
+1402cf2d0	strchr
+1402cf2da	wcsrchr
+1402cf2e4	memset
+1402cf2ee	__C_specific_handler
+1402cf306	__CxxFrameHandler3
+1402cf31c	__vcrt_InitializeCriticalSectionEx
+1402cf340	VCRUNTIME140.dll
+1402cf354	free
+1402cf35c	_invalid_parameter_noinfo_noreturn
+1402cf382	wcstol
+1402cf38c	_errno
+1402cf396	srand
+1402cf39e	rand
+1402cf3a6	malloc
+1402cf3b0	realloc
+1402cf3ba	strncpy
+1402cf3c4	__stdio_common_vsprintf
+1402cf3de	_atoi64
+1402cf3e8	atoi
+1402cf3f0	isalpha
+1402cf3fa	__stdio_common_vswprintf_s
+1402cf418	_wcsicmp
+1402cf424	_wsplitpath_s
+1402cf434	_wtoi
+1402cf43c	_itow_s
+1402cf446	tolower
+1402cf450	wcsncmp
+1402cf45a	calloc
+1402cf464	_recalloc
+1402cf470	toupper
+1402cf47a	fclose
+1402cf484	isupper
+1402cf48e	_wstat64i32
+1402cf49c	terminate
+1402cf4a8	_wfopen
+1402cf4b2	isspace
+1402cf4bc	fread
+1402cf4c4	islower
+1402cf4ce	fputc
+1402cf4d6	fflush
+1402cf4e0	fgetc
+1402cf4e8	_invalid_parameter_noinfo
+1402cf504	_unlock_file
+1402cf514	_lock_file
+1402cf522	fwrite
+1402cf52c	fgetpos
+1402cf536	setvbuf
+1402cf540	ungetc
+1402cf54a	fsetpos
+1402cf554	_fseeki64
+1402cf560	_get_stream_buffer_pointers
+1402cf57e	iswdigit
+1402cf58a	__acrt_iob_func
+1402cf59c	__stdio_common_vfwprintf
+1402cf5b8	__stdio_common_vswprintf
+1402cf5d4	_seh_filter_exe
+1402cf5e6	_set_app_type
+1402cf5f6	__setusermatherr
+1402cf60a	_configure_wide_argv
+1402cf622	_initialize_wide_environment
+1402cf642	_get_wide_winmain_command_line
+1402cf664	_initterm
+1402cf670	_initterm_e
+1402cf67e	exit
+1402cf686	_exit
+1402cf68e	_set_fmode
+1402cf69c	_cexit
+1402cf6a6	_c_exit
+1402cf6b0	_register_thread_local_exe_atexit_callback
+1402cf6de	_configthreadlocale
+1402cf6f4	_set_new_mode
+1402cf704	__p__commode
+1402cf714	_initialize_onexit_table
+1402cf730	_register_onexit_function
+1402cf74c	_crt_atexit
+1402cf758	api-ms-win-crt-heap-l1-1-0.dll
+1402cf778	api-ms-win-crt-runtime-l1-1-0.dll
+1402cf79a	api-ms-win-crt-convert-l1-1-0.dll
+1402cf7bc	api-ms-win-crt-utility-l1-1-0.dll
+1402cf7de	api-ms-win-crt-string-l1-1-0.dll
+1402cf800	api-ms-win-crt-stdio-l1-1-0.dll
+1402cf820	api-ms-win-crt-filesystem-l1-1-0.dll
+1402cf846	api-ms-win-crt-math-l1-1-0.dll
+1402cf866	api-ms-win-crt-locale-l1-1-0.dll
+1402cf88a	_CxxThrowException
+1402cf8a0	memcmp
+1402cf8aa	memcpy
+1402cf8b4	strcmp
+1402d0054	#CONTROLLER#
+1402d0158	LTDOWN
+1402d0874	DRIGHT
+1402d0978	START
+1402d0a7c	SELECT
+1402d0f90	GUIDE
+1402d15a8	CTRLDOWN
+1402d17b0	ENTER
+1402d18b4	SHIFT
+1402d1cc4	RSHIFT
+1402d1dc8	LCONTROL
+1402d1ecc	RCONTROL
+1402d1fd0	CANCEL
+1402d20d4	BACKSPACE
+1402d22dc	PAUSE
+1402d23e0	CAPSLOCK
+1402d24e4	ESCAPE
+1402d25e8	SPACE
+1402d26ec	PAGEUP
+1402d27f0	PAGEDOWN
+1402d2d04	RIGHT
+1402d2f0c	SELECT
+1402d3010	PRINT
+1402d3114	EXECUTE
+1402d3218	PRINTSCRN
+1402d331c	INSERT
+1402d3420	DELETE
+1402d5bbc	NUMPAD1
+1402d7110	SEPARATOR
+1402d7214	NUMPADPERIOD
+1402d7318	NUMLOCK
+1402d741c	SCROLLLOCK
+1402d7520	SEMICOLON
+1402d7624	EQUALS
+1402d7728	COMMA
+1402d782c	MINUS
+1402d7930	PERIOD
+1402d7a34	SLASH
+1402d7b38	TILDE
+1402d7c3c	LEFTBRACKET
+1402d7d40	BACKSLASH
+1402d7e44	RIGHTBRACKET
+1402d7f48	SINGLEQUOTE
+1402d8070	.?AVtype_info@@
+1402d8090	.?AVios_base@std@@
+1402d80b8	.?AV?$_Iosb@H@std@@
+1402d80e0	.?AV?$basic_ios@_WU?$char_traits@_W@std@@@std@@
+1402d8120	.?AV?$basic_istream@_WU?$char_traits@_W@std@@@std@@
+1402d8170	.?AV?$basic_istringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1402d81d0	.?AV?$basic_streambuf@_WU?$char_traits@_W@std@@@std@@
+1402d8220	.?AV?$basic_stringbuf@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1402d8278	.?AVCListBox@@
+1402d8298	.?AVCWnd@@
+1402d82b8	.?AVCDialogEx@@
+1402d82d8	.?AVCCmdTarget@@
+1402d8300	.?AVCDialog@@
+1402d8320	.?AVCBrush@@
+1402d8340	.?AVCGdiObject@@
+1402d8368	.?AVCComboBox@@
+1402d8388	.?AVCAlterDialog@@
+1402d83b0	.?AVCObject@@
+1402d83d0	.PEAVCException@@
+1402d83f8	.?AVCEdit@@
+1402d8418	.?AVCButton@@
+1402d8438	.?AVCAttackTab@@
+1402d8460	.?AVCAutoFlaskTab@@
+1402d8488	.?AVCBuffInputTab@@
+1402d84b0	.?AVCFont@@
+1402d84d0	.?AVCClickableStatic@@
+1402d84f8	.?AVCStatic@@
+1402d8518	.?AVbad_cast@std@@
+1402d8540	.?AV?$wstring_convert@V?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+1402d85c0	.?AV?$_Node_class@_WV?$regex_traits@_W@std@@@std@@
+1402d8608	.?AV_Root_node@std@@
+1402d8630	.?AV?$_Node_str@_W@std@@
+1402d8660	.?AV?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@
+1402d86a0	.?AV?$basic_ios@DU?$char_traits@D@std@@@std@@
+1402d86e0	.?AVfacet@locale@std@@
+1402d8708	.?AV_Node_assert@std@@
+1402d8730	.?AV?$codecvt@_WDU_Mbstatet@@@std@@
+1402d8768	.?AVinvalid_argument@std@@
+1402d8798	.?AV_Node_rep@std@@
+1402d87c0	.?AV?$collate@_W@std@@
+1402d87f0	.?AV?$basic_ostream@DU?$char_traits@D@std@@@std@@
+1402d8838	.?AV_Node_capture@std@@
+1402d8860	.?AVexception@std@@
+1402d8888	.?AV_Node_endif@std@@
+1402d88b0	.?AVruntime_error@std@@
+1402d88d8	.?AV_Node_if@std@@
+1402d8900	.?AV?$basic_stringbuf@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1402d8958	.?AVrange_error@std@@
+1402d8980	.?AV_Node_end_rep@std@@
+1402d89a8	.?AV_Node_end_group@std@@
+1402d89d8	.?AV_Node_back@std@@
+1402d8a00	.?AVcodecvt_base@std@@
+1402d8a28	.?AV_Facet_base@std@@
+1402d8a50	.?AU_Crt_new_delete@std@@
+1402d8a80	.?AV?$basic_streambuf@DU?$char_traits@D@std@@@std@@
+1402d8ac8	.?AVlogic_error@std@@
+1402d8af0	.?AV_Node_base@std@@
+1402d8b20	.?AV?$basic_ostringstream@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@
+1402d8b80	.?AV?$codecvt_utf8_utf16@_W$0BAPPPP@$0A@@std@@
+1402d8bc0	.?AV?$wstring_convert@V?$codecvt_utf8@_W$0BAPPPP@$0A@@std@@_WV?$allocator@_W@2@V?$allocator@D@2@@std@@
+1402d8c38	.?AVRequest@@
+1402d8c58	.?AVCRijndael@@
+1402d8c78	.?AVCDistanceTriggerTab@@
+1402d8ca8	.?AVCProgressCtrl@@
+1402d8cd0	.?AVCDownloading@@
+1402d8cf8	.?AVCEditProfile@@
+1402d8d20	.?AVCWinApp@@
+1402d8d40	.?AVCWinThread@@
+1402d8d68	.?AVCFollowAppApp@@
+1402d8d90	.?AVCFollowAppDlg@@
+1402d8db8	.?AVCHealthTriggerTab@@
+1402d8de0	.?AVCHotkeyDlg@@
+1402d8e08	.?AVCInputDialog@@
+1402d8e30	.?AVCTabCtrl@@
+1402d8e50	.?AVCInputTabCtrl@@
+1402d8e78	.?AVCKeepAliveDlg@@
+1402d8ea0	.?AVCKeyHelper@@
+1402d8ec8	.?AVCLeagueMechanics@@
+1402d8ef0	.?AVCLinkInputTab@@
+1402d8f18	.?AVCLoginDlg@@
+1402d8f38	.?AVCManaTriggerTab@@
+1402d8f60	.?AVCMapModsTab@@
+1402d8f88	.?AVCBaseOptionsTab@@
+1402d8fb0	.?AVCMonsterTriggerTab@@
+1402d8fe0	.?AVCNavOptions@@
+1402d9010	.?AV?$basic_iostream@_WU?$char_traits@_W@std@@@std@@
+1402d9060	.?AV?$basic_stringstream@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@
+1402d90c0	.?AV?$basic_ostream@_WU?$char_traits@_W@std@@@std@@
+1402d9108	.?AVCNavSettings@@
+1402d9130	.?AVCNewZoneTab@@
+1402d9158	.?AVCOnRespawnTab@@
+1402d9180	.?AVCPositionHelperDlg@@
+1402d91b0	.?AVCProfileNameDlg@@
+1402d91e0	.?AV?$basic_ofstream@DU?$char_traits@D@std@@@std@@
+1402d9230	.?AV?$basic_filebuf@DU?$char_traits@D@std@@@std@@
+1402d9278	.?AVCRangeEdit@@
+1402d92a0	.?AVCSettingDlg@@
+1402d92c8	.?AVCIconWindow@@
+1402d92f0	.?AVCTargetDialog@@
+1402d9318	.?AVCTimedInputTab@@
+1402d9340	.?AVUltBlacklistDlg@@
+1402fda92	StringFileInfo
+1402fdab6	040904b0
+1402fdace	FileDescription
+1402fdaf0	Application
+1402fdb0e	FileVersion
+1402fdb28	1.0.0.1
+1402fdb3e	InternalName
+1402fdb58	App.exe
+1402fdb6e	OriginalFilename
+1402fdb90	App.exe
+1402fdba6	ProductVersion
+1402fdbc4	1.0.0.1
+1402fdbda	VarFileInfo
+1402fdbfa	Translation
+1402ff39e	Windows sockets initialization failed.
+1402ff400	���<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\r\n<assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0"><dependency><dependentAssembly><assemblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version="6.0.0.0" processorArchitecture="amd64" publicKeyToken="6595b64144ccf1df" language="*"></assemblyIdentity></dependentAssembly></dependency><trustInfo xmlns="urn:schemas-microsoft-com:asm.v3"><security><requestedPrivileges><requestedExecutionLevel level="asInvoker" uiAccess="false"></requestedExecutionLevel></requestedPrivileges></security></trustInfo><application xmlns="urn:schemas-microsoft-com:asm.v3"><windowsSettings><dpiAware xmlns="http://schemas.microsoft.com/SMI/2005/WindowsSettings">true</dpiAware></windowsSettings></application></assembly>
