@@ -87,20 +87,44 @@ class CallbackBackend(InputBackend):
 
 
 class SendInputBackend(InputBackend):
-    """
-    Заглушка-пример настоящего ввода на Windows.
+    """Реальный ввод на Windows через user32.SendInput (ctypes).
 
-    На Windows здесь был бы вызов user32.SendInput через ctypes (как в follow.exe).
-    На macOS/Linux это не работает — оставлено как образец интерфейса.
-    """
+    Для мышиных кликов (MOUSE_RIGHT, LEFTCLICK) нужен hwnd окна игры —
+    передаётся опционально; без него клик идёт по текущей позиции курсора."""
 
-    def __init__(self) -> None:
+    def __init__(self, hwnd: int | None = None) -> None:
         if not sys.platform.startswith("win"):
             raise RuntimeError(
                 "SendInputBackend работает только на Windows. "
-                "На этой ОС используй LogBackend."
+                "Используй LogBackend на других ОС."
             )
-        # import ctypes; self.user32 = ctypes.windll.user32  # реальная реализация
+        from win_input import send_key, send_mouse_click, KEY_MAP
+        self._send_key        = send_key
+        self._send_mouse      = send_mouse_click
+        self._key_map         = KEY_MAP
+        self.hwnd             = hwnd   # опциональный handle окна игры
 
-    def send(self, action: InputAction) -> None:  # pragma: no cover
-        raise NotImplementedError("Реализуй SendInput через ctypes на Windows.")
+    def send(self, action: InputAction) -> None:
+        from win_input import resolve_vk
+        key = action.key.upper()
+
+        # мышиные действия
+        if key in ("MOUSE_RIGHT", "MOUSE_LEFT", "LEFTCLICK", "MOUSE_MIDDLE"):
+            button = "right" if "RIGHT" in key else ("middle" if "MIDDLE" in key else "left")
+            if self.hwnd:
+                # клик в центр клиентской области окна
+                import ctypes, ctypes.wintypes as wt
+                r = wt.RECT()
+                ctypes.windll.user32.GetClientRect(self.hwnd, ctypes.byref(r))
+                cx = (r.right - r.left) // 2
+                cy = (r.bottom - r.top) // 2
+                pt = wt.POINT(cx, cy)
+                ctypes.windll.user32.ClientToScreen(self.hwnd, ctypes.byref(pt))
+                self._send_mouse(pt.x, pt.y, button, action.hold_ms)
+            else:
+                import ctypes, ctypes.wintypes as wt
+                pt = wt.POINT()
+                ctypes.windll.user32.GetCursorPos(ctypes.byref(pt))
+                self._send_mouse(pt.x, pt.y, button, action.hold_ms)
+        else:
+            self._send_key(key, action.hold_ms)
