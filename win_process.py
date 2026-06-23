@@ -1,10 +1,13 @@
 """
-WIN_PROCESS — привязка к чужому процессу (Windows-only).
+WIN_PROCESS — привязка к чужому процессу и запуск под другим пользователем (Windows-only).
 
 Воспроизводит три шага из follow.exe:
   A. enable_debug_privilege()   — FUN_14000b480: включить SeDebugPrivilege
   B. find_pid_any(names)        — FUN_14000b3b0: снапшот TH32CS_SNAPPROCESS
   C. open_and_verify(pid)       — OpenProcess(ALL_ACCESS) + QueryFullProcessImageNameW
+
+Запуск игры под другим Windows-аккаунтом:
+  D. launch_as_user()           — CreateProcessWithLogonW (LOGON_WITH_PROFILE + CREATE_UNICODE_ENVIRONMENT)
 
 Итоговый вызов (с retry-loop как в оригинале):
     handle, path = attach_game(timeout_s=30)
@@ -21,12 +24,16 @@ kernel32 = ctypes.windll.kernel32
 advapi32 = ctypes.windll.advapi32
 
 # Константы
-TH32CS_SNAPPROCESS      = 0x00000002
-PROCESS_ALL_ACCESS      = 0x001FFFFF
-PROCESS_QUERY_LIMITED   = 0x00001000
-TOKEN_ADJUST_PRIVILEGES = 0x0020
-TOKEN_QUERY             = 0x0008
-SE_PRIVILEGE_ENABLED    = 0x00000002
+TH32CS_SNAPPROCESS          = 0x00000002
+PROCESS_ALL_ACCESS          = 0x001FFFFF
+PROCESS_QUERY_LIMITED       = 0x00001000
+TOKEN_ADJUST_PRIVILEGES     = 0x0020
+TOKEN_QUERY                 = 0x0008
+SE_PRIVILEGE_ENABLED        = 0x00000002
+LOGON_WITH_PROFILE          = 0x00000001
+CREATE_UNICODE_ENVIRONMENT  = 0x00000400
+LOGON32_LOGON_INTERACTIVE   = 2
+LOGON32_PROVIDER_DEFAULT    = 0
 
 # Три имени экзешника, в том же порядке что в follow.exe
 POE_EXE_NAMES = (
@@ -65,6 +72,38 @@ class TOKEN_PRIVILEGES(ctypes.Structure):
     _fields_ = [
         ("PrivilegeCount", wt.DWORD),
         ("Privileges",     LUID_AND_ATTRIBUTES * 1),
+    ]
+
+
+class STARTUPINFOW(ctypes.Structure):
+    _fields_ = [
+        ("cb",              wt.DWORD),
+        ("lpReserved",      wt.LPWSTR),
+        ("lpDesktop",       wt.LPWSTR),
+        ("lpTitle",         wt.LPWSTR),
+        ("dwX",             wt.DWORD),
+        ("dwY",             wt.DWORD),
+        ("dwXSize",         wt.DWORD),
+        ("dwYSize",         wt.DWORD),
+        ("dwXCountChars",   wt.DWORD),
+        ("dwYCountChars",   wt.DWORD),
+        ("dwFillAttribute", wt.DWORD),
+        ("dwFlags",         wt.DWORD),
+        ("wShowWindow",     wt.WORD),
+        ("cbReserved2",     wt.WORD),
+        ("lpReserved2",     ctypes.POINTER(ctypes.c_byte)),
+        ("hStdInput",       wt.HANDLE),
+        ("hStdOutput",      wt.HANDLE),
+        ("hStdError",       wt.HANDLE),
+    ]
+
+
+class PROCESS_INFORMATION(ctypes.Structure):
+    _fields_ = [
+        ("hProcess",    wt.HANDLE),
+        ("hThread",     wt.HANDLE),
+        ("dwProcessId", wt.DWORD),
+        ("dwThreadId",  wt.DWORD),
     ]
 
 
@@ -221,6 +260,85 @@ def attach_game(
                 f"(tried: {list(POE_EXE_NAMES)})"
             )
         kernel32.Sleep(poll_ms)
+
+
+# ---------------------------------------------------------------- шаг D: запуск под другим пользователем
+
+def validate_account(username: str, domain: str = ".") -> bool:
+    """Проверить, что учётная запись существует (пробный LogonUserW).
+
+    Не раскрывает пароль — только проверяет существование аккаунта.
+    domain="." означает локальный компьютер."""
+    h_token = wt.HANDLE()
+    # Пробуем с пустым паролем — нас интересует только существование аккаунта,
+    # ошибка ERROR_LOGON_FAILURE (1326) означает «аккаунт есть, пароль неверный».
+    ok = advapi32.LogonUserW(
+        username, domain, "",
+        LOGON32_LOGON_INTERACTIVE, LOGON32_PROVIDER_DEFAULT,
+        ctypes.byref(h_token),
+    )
+    if ok:
+        kernel32.CloseHandle(h_token)
+        return True
+    err = ctypes.get_last_error()
+    # 1326 = ERROR_LOGON_FAILURE — аккаунт есть, просто пароль пустой не подходит
+    return err == 1326
+
+
+def launch_as_user(
+    username: str,
+    password: str,
+    exe_path: str,
+    domain: str = ".",
+    working_dir: str | None = None,
+    wait_for_window_s: float = 15.0,
+) -> tuple[wt.HANDLE, int]:
+    """Запустить exe от имени другого пользователя Windows.
+
+    Зеркалит FUN_1400... из follow.exe:
+      CreateProcessWithLogonW(LOGON_WITH_PROFILE | CREATE_UNICODE_ENVIRONMENT)
+      затем Sleep(3000) и ожидание окна через find_hwnd_wait.
+
+    Возвращает (process_handle, pid).
+    Caller закрывает handle через CloseHandle."""
+    si = STARTUPINFOW()
+    si.cb = ctypes.sizeof(STARTUPINFOW)
+    pi = PROCESS_INFORMATION()
+
+    # advapi32.CreateProcessWithLogonW требует LPWSTR для cmdline (mutable)
+    cmd_buf = ctypes.create_unicode_buffer(exe_path)
+
+    ok = advapi32.CreateProcessWithLogonW(
+        username,                          # lpUsername
+        domain,                            # lpDomain
+        password,                          # lpPassword
+        LOGON_WITH_PROFILE,                # dwLogonFlags
+        exe_path,                          # lpApplicationName
+        cmd_buf,                           # lpCommandLine (mutable)
+        CREATE_UNICODE_ENVIRONMENT,        # dwCreationFlags
+        None,                              # lpEnvironment (None = inherit)
+        working_dir,                       # lpCurrentDirectory
+        ctypes.byref(si),                  # lpStartupInfo
+        ctypes.byref(pi),                  # lpProcessInformation
+    )
+    if not ok:
+        raise ctypes.WinError(ctypes.get_last_error())
+
+    pid = pi.dwProcessId
+    # Закрываем дескриптор потока — нам нужен только дескриптор процесса
+    kernel32.CloseHandle(pi.hThread)
+
+    # Даём процессу 3 секунды на инициализацию (как в follow.exe)
+    kernel32.Sleep(3000)
+
+    # Ждём появления окна
+    try:
+        from win_window import find_hwnd_wait
+        find_hwnd_wait(pid, timeout_s=wait_for_window_s)
+    except ImportError:
+        pass  # win_window не обязателен
+
+    return pi.hProcess, pid
 
 
 # ---------------------------------------------------------------- самотест
