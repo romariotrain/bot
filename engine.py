@@ -98,6 +98,46 @@ class EventTrigger(Trigger):
         return changed
 
 
+class DistanceTrigger(Trigger):
+    """Срабатывает когда player_pos попадает в прямоугольную зону относительно leader_pos.
+
+    Зона задаётся в игровых единицах по двум осям:
+      forward — ось вперёд (разность Y координат)
+      right    — ось вправо (разность X координат)
+    Аналог CDistanceTriggerTab из follow.exe (ForwardMin/Max, RightMin/Max)."""
+
+    def __init__(
+        self,
+        forward_min: int = -450,
+        forward_max: int = 450,
+        right_min: int = -450,
+        right_max: int = 450,
+        edge: bool = True,
+    ) -> None:
+        self.forward_min = forward_min
+        self.forward_max = forward_max
+        self.right_min   = right_min
+        self.right_max   = right_max
+        self.edge        = edge
+        self._was        = False
+
+    def reset(self) -> None:
+        self._was = False
+
+    def ready(self, now: float, state: GameState) -> bool:
+        px, py = state.player_pos
+        lx, ly = state.leader_pos
+        fwd   = py - ly   # forward = разность по Y
+        right = px - lx   # right   = разность по X
+        inside = (
+            self.forward_min <= fwd   <= self.forward_max and
+            self.right_min   <= right <= self.right_max
+        )
+        fire = inside and (not self._was if self.edge else True)
+        self._was = inside
+        return fire
+
+
 # ---------------------------------------------------------------- правило
 
 @dataclass

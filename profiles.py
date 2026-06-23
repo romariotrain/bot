@@ -27,7 +27,7 @@ from pathlib import Path
 
 from backends import InputAction
 from behaviors import build_behavior
-from engine import EventTrigger, Rule, StateTrigger, TimedTrigger, Trigger
+from engine import DistanceTrigger, EventTrigger, Rule, StateTrigger, TimedTrigger, Trigger
 
 _OPS = {
     "<": operator.lt, "<=": operator.le,
@@ -68,6 +68,14 @@ def build_trigger(cfg: dict) -> Trigger:
     if t == "event":
         field = cfg["field"]
         return EventTrigger(lambda s, field=field: getattr(s, field))
+    if t == "distance":
+        return DistanceTrigger(
+            forward_min=cfg.get("forward_min", -450),
+            forward_max=cfg.get("forward_max",  450),
+            right_min  =cfg.get("right_min",   -450),
+            right_max  =cfg.get("right_max",    450),
+            edge       =cfg.get("edge", True),
+        )
     raise ValueError(f"неизвестный тип триггера: {t!r}")
 
 
