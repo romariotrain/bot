@@ -16,6 +16,7 @@ from __future__ import annotations
 import math
 
 from backends import InputAction
+from maproll import MapRollConfig, maproll_config_from_dict
 from nav import NavConfig, nav_config_from_dict, slots_to_actions
 from state import GameState
 
@@ -117,6 +118,26 @@ def reactivate_auras(params: dict):
     return action_fn
 
 
+# ---------------------------------------------------------------- авто-роллинг карты
+
+def maproll(params: dict):
+    """Откатать карту до min_quant/min_rarity.
+
+    Возвращает action_fn, которая генерирует список клавиш одного попытки ролла.
+    Итерирование «до условия» реализуется через Rule.repeat_until + Rule.max_attempts
+    (задаётся в поле "reroll" JSON-профиля).
+
+    Порядок за один цикл: prep_keys (если есть) → roll_key."""
+    cfg: MapRollConfig = maproll_config_from_dict(params)
+
+    def action_fn(s: GameState) -> list[InputAction]:
+        actions = [InputAction(k, 0, cfg.gap_ms) for k in cfg.prep_keys]
+        actions.append(InputAction(cfg.roll_key, 0, cfg.gap_ms))
+        return actions
+
+    return action_fn
+
+
 # ---------------------------------------------------------------- навигация
 
 def navigate(params: dict):
@@ -142,6 +163,7 @@ REGISTRY = {
     "aim": aim,
     "loot": loot,
     "reactivate_auras": reactivate_auras,
+    "maproll": maproll,
     "navigate": navigate,
 }
 
