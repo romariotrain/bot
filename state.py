@@ -47,7 +47,8 @@ class GameState:
     altar_mod: str = ""           # мод алтаря на выбор
     encounter: str = ""           # текущий энкаунтер (для blacklist)
 
-    just_respawned: bool = False  # флаг: только что воскресли (для On-Respawn)
+    just_respawned: bool = False    # флаг: только что воскресли (для On-Respawn)
+    is_disconnected: bool = False   # флаг: бот потерял связь / видит экран логина
     extra: dict = field(default_factory=dict)
 
     def dist_to_leader(self) -> float:
